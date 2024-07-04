@@ -241,7 +241,6 @@ nav {
   color: var(--first-color);
 }
 
-/* ----- FEATURED IMAGE BOX ----- */
 .featured-image {
   display: flex;
   justify-content: right;
@@ -499,7 +498,6 @@ h3 {
   z-index: 2;
 }
 
-/* ----- CONTACT FORM ----- */
 .form-control {
   display: flex;
   flex-direction: column;
@@ -607,14 +605,12 @@ footer {
 
 @media (max-width: 900px) {
 
-  /* Ensure no element overflows the viewport */
   .container,
   .nav-menu,
   .wrapper,
   .featured-box,
   .section,
-  .footer-menu,
-  .footer-social-icons {
+  .footer-menu{
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -709,8 +705,8 @@ footer {
 
   .image,
   .image img {
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
   }
 
   .row {
@@ -761,7 +757,6 @@ footer {
 
 
 @media only screen and (max-width: 540px) {
-
   .featured-name {
     font-size: 40px;
   }
