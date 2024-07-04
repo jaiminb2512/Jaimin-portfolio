@@ -2,7 +2,6 @@
 
 
 :root {
-  /* --body-color: rgb(255, 255, 255); */
   --body-color: rgb(255, 255, 255);
   --color-white: rgb(255, 255, 255);
 
@@ -156,7 +155,6 @@ nav {
 }
 
 
-/* ----- WRAPPER DESIGN ----- */
 .wrapper {
   padding-inline: 10vw;
 }
