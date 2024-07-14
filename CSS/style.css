@@ -2,7 +2,6 @@
 
 
 :root {
-  /* --body-color: rgb(255, 255, 255); */
   --body-color: rgb(255, 255, 255);
   --color-white: rgb(255, 255, 255);
 
@@ -62,6 +61,11 @@ html {
 }
 
 .btn:hover {
+  background: var(--second-color);
+  color: var(--color-white);
+}
+
+.btnActive {
   background: var(--second-color);
   color: var(--color-white);
 }
@@ -167,7 +171,6 @@ nav {
   min-height: 700px;
 }
 
-/* ----- FEATURED TEXT BOX ----- */
 .featured-text {
   position: relative;
   display: flex;
@@ -241,6 +244,7 @@ nav {
   color: var(--first-color);
 }
 
+/* ----- FEATURED IMAGE BOX ----- */
 .featured-image {
   display: flex;
   justify-content: right;
@@ -388,7 +392,7 @@ h3 {
 .project-container {
   display: flex;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 20px;
   flex-wrap: wrap;
 }
@@ -450,9 +454,17 @@ h3 {
 
 .project-box:hover.project-box i,
 .project-box:hover.project-box>h3,
-.project-box:hover.project-box>p {
+.project-box:hover.project-box>p,
+.project-box:hover.project-box>div {
   color: var(--color-white);
   z-index: 2;
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .contact-info {
@@ -610,7 +622,7 @@ footer {
   .wrapper,
   .featured-box,
   .section,
-  .footer-menu{
+  .footer-menu {
     max-width: 100%;
     overflow-x: hidden;
   }
@@ -643,7 +655,8 @@ footer {
     width: 100%;
   }
 
-  .nav-button, .scroll-icon-box {
+  .nav-button,
+  .scroll-icon-box {
     display: none;
   }
 
@@ -719,7 +732,7 @@ footer {
     width: 100%;
   }
 
-  .second-skill-box{
+  .second-skill-box {
     display: flex;
     flex-direction: column;
   }
@@ -745,11 +758,11 @@ footer {
     margin-bottom: 0.5rem;
   }
 
-  .bottom-footer{
+  .bottom-footer {
     margin: 0 20px;
   }
 
-  .bottom-footer p{
+  .bottom-footer p {
     margin-top: 10px;
     text-align: center;
   }
@@ -757,6 +770,7 @@ footer {
 
 
 @media only screen and (max-width: 540px) {
+
   .featured-name {
     font-size: 40px;
   }

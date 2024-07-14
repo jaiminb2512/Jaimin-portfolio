@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+
+
+
+    <link rel="stylesheet" href="../CSS/style.css">
+    <link rel="stylesheet" href="../CSS/model.css">
+    <link rel="stylesheet" href="../CSS/Project.css">
+
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon">
+
+    <title>Project | Jaimin</title>
+</head>
+
+<body>
+    <nav id="header">
+        <div class="nav-logo">
+            <p class="nav-name">Jaimin</p>
+            <span>.</span>
+        </div>
+        <div class="nav-menu" id="myNavMenu">
+            <ul class="nav_menu_list">
+                <li class="nav_list">
+                    <a href="/" class="nav-link">Home</a>
+                </li>
+                <li class="nav_list">
+                    <a href="/#about" class="nav-link">About</a>
+                </li>
+                <li class="nav_list">
+                    <a href="/#projects" class="nav-link  active-link">Projects</a>
+                    <div class="circle"></div>
+                </li>
+                <li class="nav_list">
+                    <a href="/#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="nav-button">
+            <a href="../assests/pdfs/resume.pdf" download="Resume.pdf">
+                <button class="btn">Download CV
+                    <i class="uil uil-import"></i>
+                </button>
+            </a>
+        </div>
+
+        <div class="nav-menu-btn">
+            <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+        </div>
+
+    </nav>
+
+
+    <section class="section" id="projects" style="margin: 0 40px; padding-top: 100px;">
+
+        <section class="sorting-projects">
+
+            <div class="type">
+                <button class="btn">Major</button>
+                <button class="btn">HTML CSS JS</button>
+                <button class="btn">REACT </button>
+                <button class="btn">NEXTJS</button>
+                <button class="btn">All</button>
+            </div>
+
+
+            <div class="category">
+            </div>
+
+        </section>
+
+    </section>
+
+
+
+    <div class="project-container">
+        <!-- Project Cards using JS -->
+    </div>
+
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h3 id="modal-name"></h3>
+            <p id="modal-description"></p>
+            <div id="modal-learned"></div>
+            <div id="modal-features"></div>
+            <div class="links">
+                <a id="modal-githublink" href="#" target="_blank">
+                  <div class="icon modal-icon">
+                    <i class="uil uil-github-alt"></i>
+                  </div>
+                </a>
+                <a id="modal-demolink" href="#" target="_blank">
+                  <div class="icon demo-link material-symbols-outlined">
+                    language
+                  </div>
+                </a>
+              </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class=" top-footer">
+            <p>Jaimin Prajapati.</p>
+        </div>
+        <div class="middle-footer">
+            <ul class="footer-menu">
+                <li class="footer_menu_list">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#about">About</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#projects">Projects</a>
+                </li>
+                <li class="footer_menu_list">
+                    <a href="#contact">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer-social-icons">
+            <a href="https://www.linkedin.com/in/jaiminb251203/" target="_blank">
+                <div class="icon">
+                    <i class="uil uil-linkedin-alt"></i>
+                </div>
+            </a>
+            <a href="https://github.com/jaiminb2512" target="_blank">
+                <div class="icon"><i class="uil uil-github-alt"></i></div>
+            </a>
+        </div>
+        <div class="bottom-footer">
+            <p>Thank you for taking the time to learn more about me.</p>
+            <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Jaimin Prajapati</a> - All rights
+                reserved
+            </p>
+        </div>
+    </footer>
+
+
+
+    <script src="../JS/renderProjects.js"></script> 
+    <script src="../JS/script.js"></script>
+    
+   
+</body>
+
+</html>
