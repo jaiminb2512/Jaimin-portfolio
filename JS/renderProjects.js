@@ -1,5 +1,67 @@
 const projectdesc = [
     {
+        projectNo: 64,
+        id: "React Ecommerce",
+        name: "React Ecommerce",
+        major: true,
+        type: "REACT",
+        category: "FULL STACK",
+        desc1: "As the name suggests, this is a React <b>Ecommerce</b> website. On the product page, I implemented multiple types of sorting and provided <b>Grid</b> and <b>List</b> views.",
+        desc2: "As the name suggests, this is a React <b>Ecommerce</b> website. On the product page, I implemented multiple types of sorting and provided <b>Grid</b> and <b>List</b> views.",
+        learned: [],
+        features: [],
+        modules: "",
+        githublink: "",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 63,
+        id: "Wanderlust Chronicles",
+        name: "Wanderlust Chronicles",
+        major: false,
+        type: "REACT",
+        category: "FULL STACK",
+        desc1: "This is a <b>MERN</b> stack and authentication-facilitated project to save the trip journey with images. Users can add, edit, delete, save photos, and view each journey after login. This is adaptive for all devices.",
+        desc2: "This is a <b>MERN</b> stack and authentication-facilitated project to save the trip journey with images. Users can add, edit, delete, save photos, and view each journey after login. This is adaptive for all devices.",
+        learned: [],
+        features: [],
+        modules: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/Wanderlust%20Chronicles",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 58,
+        id: "VaultGuard",
+        name: "VaultGuard",
+        major: false,
+        type: "REACT",
+        category: "FULL STACK",
+        desc1: "This is a Full Stack MERN project. It allows you to securely save your passwords along with their corresponding URLs and usernames in a <b>MongoDB database</b>. The user interface provides options for <b>Editing</b> and <b>Deleting</b> existing entries, enhancing the overall user experience. <b>Animated icons</b> are incorporated to add a touch of visual appeal.",
+        desc2: "This is a Full Stack MERN project. It allows you to securely save your passwords along with their corresponding URLs and usernames in a <b>MongoDB database</b>. The user interface provides options for <b>Editing</b> and <b>Deleting</b> existing entries, enhancing the overall user experience. <b>Animated icons</b> are incorporated to add a touch of visual appeal. Additionally, the project features a cool eye functionality that enables users to conveniently hide or display their entered passwords.",
+        learned: [
+            "Gained experience in building a Full Stack MERN application.",
+            "Learned how to securely save passwords in a MongoDB database.",
+            "Implemented CRUD operations (Create, Read, Update, Delete) for managing password entries.",
+            "Enhanced the user interface with animated icons to improve visual appeal.",
+            "Integrated a toggle functionality to hide and display passwords for better user convenience."
+        ],
+        features: [
+            "Securely save passwords along with corresponding URLs and usernames in a MongoDB database.",
+            "User interface allows for editing and deleting existing entries.",
+            "Incorporation of animated icons for a visually appealing experience.",
+            "Cool eye icon functionality to hide and display entered passwords.",
+            "Enhanced overall user experience with intuitive and user-friendly design."
+        ],
+        modules: [
+            "React Router Dom", "React Toastify", "Dotenv"
+        ],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/VaultGaurd",
+        videolink: "",
+        livedemo: ""
+    },
+    {
         projectNo: 1,
         id: "Fashion Store",
         name: "Fashion Store",
@@ -174,7 +236,6 @@ const projectdesc = [
             "Developed collision detection algorithms to detect when the car collides with obstacles and trigger game over conditions.",
             "Programmed logic to handle multiple lanes of traffic, allowing the car to move left or right to avoid obstacles, showcasing proficiency in spatial awareness and control.",
             "Implemented logic to end the game when the car collides with an obstacle, displaying game over screen or message, reinforcing understanding of conditional statements and game state management.",
-
         ],
         features: [
             "Learned creating smooth and continuous animation in games using JavaScript.",
@@ -737,6 +798,38 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "Website",
+        desc1: "In this website, there are multiple sections that I made using React components. All data is shown dynamically, with the data stored in another JS file and rendered using React.js. I made a <b>Scroll-up button</b> for reaching the top of the website. To create this, I used <b>Font Awesome</b> and <b>React Router DOM</b>. Additionally, I implemented a <b>custom Page Not Found</b> component to handle invalid routes.",
+        desc2: "By making this website, I strengthened my grip on React and understood the importance of differentiating the website into components. In this website, there are multiple sections that I made using React components. All data is shown dynamically, with the data stored in another JS file and rendered using React.js. I made a <b>Scroll-up button</b> for reaching the top of the website. To create this, I used <b>Font Awesome</b> and <b>React Router DOM</b>. Additionally, I implemented a <b>custom Page Not Found</b> component to handle invalid routes.",
+        learned: [
+            "Strengthened my grip on React.",
+            "Understood the importance of differentiating the website into components.",
+            "Enhanced skills in creating dynamic data rendering using React.js.",
+            "Improved knowledge in organizing and managing data stored in JS files.",
+            "Gained experience in creating a scroll-up button for navigation.",
+            "Learned how to implement a custom 'Page Not Found' component."
+        ],
+        features: [
+            "Multiple sections created using React components.",
+            "Dynamic data rendering with data stored in other JS files.",
+            "Scroll-up button for reaching the top of the website.",
+            "Utilized Font Awesome for icons.",
+            "Implemented React Router DOM for routing.",
+            "Custom 'Page Not Found' component for handling invalid routes."
+        ],
+        modules: [
+            "Font Awsome", "React Router Dom"
+        ],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/Website/Health%2B",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 44,
+        id: "Weather App",
+        name: "Weather App",
+        major: false,
+        type: "REACT",
+        category: "API",
         desc1: "",
         desc2: "",
         learned: [],
@@ -971,22 +1064,6 @@ const projectdesc = [
         livedemo: ""
     },
     {
-        projectNo: 58,
-        id: "VaultGuard",
-        name: "VaultGuard",
-        major: false,
-        type: "REACT",
-        category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
         projectNo: 59,
         id: "PageSeek",
         name: "PageSeek",
@@ -1025,12 +1102,24 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "API",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
+        desc1: "In this project, I used the News API to fetch data. I also created a navbar with different categories, allowing users to select the type of news they want to see. By default, the General category is selected. I utilized <b>React Router DOM</b> and <b>Infinite Scroll </b> modules to enhance the functionality of my project. Additionally, I implemented an awesome <b>Loader</b>. The application is fully responsive and includes <b>mode switching</b> functionality.",
+        desc2: " In this project I used the News API to fetch data and created a navbar with different categories, allowing users to select the type of news they want. By default, the General category is selected. I utilized <b>React Router DOM</b> and <b>Infinite Scroll </b> modules to enhance the functionality of my project. Additionally, I created an awesome  <b>Loader</b>. The application is fully responsive, includes <b>mode switching </b> functionality, and has a hamburger menu for medium and smaller screens.",
+        learned: [
+            "Implemented infinite scrolling to enhance user experience with seamless content loading.",
+            "Developed skills in creating fully responsive web applications that work well on all screen sizes.",
+            "Learned to implement and toggle between dark and light modes for better user accessibility.",
+            "Acquired knowledge in creating a functional hamburger menu for medium and smaller screens.",
+            "Designed and implemented an engaging loader to improve user experience during data fetches.",
+        ],
+        features: [
+            "A navbar with multiple categories allowing users to choose the type of news they want, with General selected by default.",
+            "Utilized React-Router-DOM for smooth and efficient navigation between different sections.",
+            "Integrated infinite scrolling to load news articles continuously as the user scrolls down."
+        ],
+        modules: [
+            "Top Loading Bar", "React Router Dom", "Infinite Scroll Bar"
+        ],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/NewsMonkey",
         videolink: "",
         livedemo: ""
     },
@@ -1050,38 +1139,8 @@ const projectdesc = [
         videolink: "",
         livedemo: ""
     },
-    {
-        projectNo: 63,
-        id: "Wanderlust Chronicles",
-        name: "Wanderlust Chronicles",
-        major: false,
-        type: "REACT",
-        category: "FULL STACK",
-        desc1: "This is a <b>MERN</b> stack and authentication-facilitated project to save the trip journey with images. Users can add, edit, delete, save photos, and view each journey after login. This is adaptive for all devices.",
-        desc2: "This is a <b>MERN</b> stack and authentication-facilitated project to save the trip journey with images. Users can add, edit, delete, save photos, and view each journey after login. This is adaptive for all devices.",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/Wanderlust%20Chronicles",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 64,
-        id: "React Ecommerce",
-        name: "React Ecommerce",
-        major: false,
-        type: "REACT",
-        category: "FULL STACK",
-        desc1: "As the name suggests, this is a React <b>Ecommerce</b> website. On the product page, I implemented multiple types of sorting and provided <b>Grid</b> and <b>List</b> views.",
-        desc2: "As the name suggests, this is a React <b>Ecommerce</b> website. On the product page, I implemented multiple types of sorting and provided <b>Grid</b> and <b>List</b> views.",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
+
+
     {
         projectNo: 65,
         id: "Elite Estate",
@@ -1281,6 +1340,7 @@ function myMenuFunction() {
     }
 }
 
+
 document.addEventListener('DOMContentLoaded', () => {
     const typeButtons = document.querySelectorAll('.sorting-projects .type button');
     const categorySection = document.querySelector('.category');
@@ -1403,6 +1463,12 @@ document.addEventListener('DOMContentLoaded', () => {
         categorySection.querySelectorAll('button').forEach(button => button.classList.remove('btnActive'));
 
         renderProjects();
+
+        // Add btnActive class to the selected filter button
+        const filterButton = Array.from(document.querySelectorAll('.sorting-projects button')).find(btn => btn.textContent.trim() === filter);
+        if (filterButton) {
+            filterButton.classList.add('btnActive');
+        }
     }
 
     // Event listener for sorting projects
@@ -1490,14 +1556,9 @@ const sr = ScrollReveal({
     reset: true
 });
 
-const ct = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2500,
-    reset: true
-});
-
 
 sr.reveal('.sorting-projects', {});
-ct.reveal('.category', {});
+sr.reveal('.category', {});
+sr.reveal('.project-box', { interval: 200 })
 
+document.querySelector('.sorting-projects button').classList.add('btnActive');
