@@ -1,5 +1,236 @@
 const projectdesc = [
     {
+        projectNo: 66,
+        id: "StockGuardian",
+        name: "StockGuardian",
+        major: false,
+        type: "NEXTJS",
+        category: "FULL STACK",
+        desc1: "Stock Guardian is my project aimed at managing the stock of items in a retail store where the shop owner can efficiently manage inventory. I used <b>Tailwind CSS</b> for styling. In this application, the owner can add products, view a list of all items with their stock details, update the stock, and delete items. At the top, there is a <b>Search Facility</b> to find any item quickly.",
+        desc2: "Stock Guardian is my project aimed at managing the stock of items in a retail store where the shop owner can efficiently manage inventory. I used <b>Tailwind CSS</b> for styling. In this application, the owner can add products, view a list of all items with their stock details, update the stock, and delete items. At the top, there is a <b>Search Facility</b> to find any item quickly.",
+        learned: [],
+        features: [],
+        CSS: "",
+        modules: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/Stock%20Gaurdian",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 67,
+        id: "Retail Genius",
+        name: "Retail Genius",
+        major: false,
+        type: "NEXTJS",
+        category: "FULL STACK",
+        desc1: "This is Ecommerce Project using <b>NEXTJS</b> as frontend and MongoDB for Backend. Which facilate to <b>Add</b>, <b>Delete</b> and <b>Edit</b> item from database. In this i also implemented <b>Discount Coupen</b> facility enchance it's. After Item added into cart the add to cart button convert into <b>Added to cart</b>.",
+        desc2: "This is Ecommerce Project using <b>NEXTJS</b> as frontend and MongoDB for Backend. Which facilate to <b>Add</b>, <b>Delete</b> and <b>Edit</b> item from database. In this i also implemented <b>Discount Coupen</b> facility enchance it's. After Item added into cart the add to cart button convert into <b>Added to cart</b>.",
+        learned: [
+            "Mastered the fundamental concepts of HTML and CSS.",
+            "Successfully integrated HTML with CSS to create a cohesive design.",
+            "Gained experience with img and table tags for better content presentation.",
+            "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
+        ],
+        feature: [
+            "Mastered the fundamental concepts of HTML and CSS.",
+            "Successfully integrated HTML with CSS to create a cohesive design.",
+            "Gained experience with img and table tags for better content presentation.",
+            "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
+        ],
+        CSS: "",
+        modules: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/Retail%20Genius",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 68,
+        id: "AnimeSaga",
+        name: "AnimeSaga",
+        major: false,
+        type: "NEXTJS",
+        category: "API",
+        desc1: "In this API project, I fetch data and display it using Next.js's responsive <b>Image component</b>. <b>Tailwind CSS</b> handles styling, while <b>Framer Motion</b> adds smooth animations. This combination ensures a performant, visually appealing application with optimized images, responsive design, and engaging user interactions.",
+        desc2: "In this API project, I fetch data and display it using Next.js's responsive <b>Image component</b>. <b>Tailwind CSS</b> handles styling, while <b>Framer Motion</b> adds smooth animations. This combination ensures a performant, visually appealing application with optimized images, responsive design, and engaging user interactions.",
+        learned: [
+            "Integrated Next.js's built-in Image component for optimized and responsive images.",
+            "Utilized Tailwind CSS for efficient, responsive styling.",
+            "Implemented Framer Motion for adding smooth and interactive animations.",
+            "Enhanced data fetching and display with modern web technologies."
+        ],
+        features: [
+            "Responsive design across all devices using Tailwind CSS.",
+            "Optimized image handling with Next.js's Image component.",
+            "Interactive animations and transitions powered by Framer Motion."
+        ],
+        CSS: "Tailwind",
+        modules: "Framer motion",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/API/AnimeSaga",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 69,
+        id: "Travel Trailblazers",
+        name: "Travel Trailblazers",
+        major: false,
+        type: "NEXTJS",
+        category: "Website",
+        desc1: "Travel Trailblazers is a website I created using Next.js with <b>Tailwind</b> CSS for styling. It utilizes Next.js paging functionality and is fully responsive on all devices. The website is divided into several components, such as Navbar, Hero, Guide, and Footer. Additionally, I used NextJS's <b>Image</b> component to enhance its performance.",
+        desc2: "Travel Trailblazers is a website I created using Next.js with <b>Tailwind</b> CSS for styling. It utilizes Next.js paging functionality and is fully responsive on all devices. The website is divided into several components, such as Navbar, Hero, Guide, and Footer. Additionally, I used NextJS's <b>Image</b> component to enhance its performance.",
+        learned: [
+            "Gained proficiency in using Next.js and Tailwind CSS for building modern web applications.",
+            "Implemented Next.js paging functionality for improved navigation and user experience.",
+            "Developed a fully responsive design that works seamlessly across all devices.",
+            "Mastered the division of a website into reusable components, enhancing maintainability and scalability.",
+            "Enhanced image handling and optimization using React's Image component."
+        ],
+
+        features: [
+            "Fully responsive design that adapts to all screen sizes.",
+            "Efficient paging functionality for better navigation.",
+            "Modern and sleek user interface styled with Tailwind CSS.",
+            "Enhanced image loading and optimization using React's Image component."
+        ],
+        CSS: "Tailwind",
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/Website/Travel%20Trailblazers",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 70,
+        id: "Point Marker",
+        name: "Point Marker",
+        major: false,
+        type: "NEXTJS",
+        category: "Website",
+        desc1: "",
+        desc2: "",
+        learned: [],
+        features: [],
+        CSS: "",
+        modules: "",
+        githublink: "",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 71,
+        id: "SliceMagic",
+        name: "SliceMagic",
+        major: false,
+        type: "NEXTJS",
+        category: "Website",
+        desc1: "",
+        desc2: "",
+        learned: [],
+        features: [],
+        CSS: "",
+        modules: "",
+        githublink: "",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 72,
+        id: "FlavorExpress",
+        name: "FlavorExpress",
+        major: false,
+        type: "NEXTJS",
+        category: "Website",
+        desc1: "",
+        desc2: "",
+        learned: [],
+        features: [],
+        CSS: "",
+        modules: "",
+        githublink: "",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 73,
+        id: "EntryEase",
+        name: "EntryEase",
+        major: false,
+        type: "NEXTJS",
+        category: "FULL STACK",
+        desc1: "",
+        desc2: "",
+        learned: [],
+        features: [],
+        CSS: "",
+        modules: "",
+        githublink: "",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 74,
+        id: "GameGlance",
+        name: "GameGlance",
+        major: false,
+        type: "NEXTJS",
+        category: "FULL STACK",
+        desc1: "",
+        desc2: "",
+        learned: [],
+        features: [],
+        CSS: "",
+        modules: "",
+        githublink: "",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 75,
+        id: "EventVault",
+        name: "EventVault",
+        major: true,
+        type: "NEXTJS",
+        category: "FULL STACK",
+        desc1: "In this project i used react <b>Leaflet</b> for map and i also used popup and marker facility in map. In this as user select the category any one from selection option as marker position change in the map. User can save the it's favourite event from the map popup option. Even if user reload the page the data will not lost",
+        desc2: "In this project i used react <b>Leaflet</b> for map and i also used popup and marker facility in map. In this as user select the category any one from selection option as marker position change in the map. User can save the it's favourite event from the map popup option. Even if user reload the page the data will not lost",
+        learned: [],
+        features: [],
+        CSS: "",
+        modules: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/EventVault",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 65,
+        id: "Elite Estate",
+        name: "Elite Estate",
+        major: false,
+        type: "NEXTJS",
+        category: "FULL STACK",
+        desc1: "This full-stack <b>Real Estate</b> management project, built with Next.js and MongoDB, allows users to manage property data efficiently. The application features a form to input <b>Property Petails</b> such as title, contact information, image URL, and description. This ensures seamless property management and data storage.",
+        desc2: "This full-stack <b>Real Estate</b> management project, built with Next.js and MongoDB, allows users to manage property data efficiently. The application features a form to input <b>Property Petails</b> such as title, contact information, image URL, and description. This ensures seamless property management and data storage.",
+        learned: [
+            "Gained proficiency in building full-stack applications using Next.js and MongoDB.",
+            "Enhanced skills in using Axios for making HTTP requests to interact with the backend.",
+            "Developed expertise in managing state and form inputs in a Next.js application.",
+            "Learned to integrate MongoDB using Mongoose for efficient data management.",
+            "Improved understanding of navigation and routing with React Router DOM."
+        ],
+
+        features: [
+            "User-friendly form for adding property details such as title, contact information, image URL, and description.",
+            "Efficient property data management with MongoDB backend integration using Mongoose.",
+            "Seamless navigation and dynamic routing with React Router DOM.",
+            "Real-time updates and data rendering with Next.js.",
+            "HTTP request handling with Axios for smooth communication between frontend and backend."
+        ],
+        CSS: "",
+        modules: ["Axios", "Mongoose", "React Router Dom"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/EliteEstates",
+        videolink: "",
+        livedemo: ""
+    },
+    {
         projectNo: 64,
         id: "React Ecommerce",
         name: "React Ecommerce",
@@ -10,6 +241,7 @@ const projectdesc = [
         desc2: "As the name suggests, this is a React <b>Ecommerce</b> website. On the product page, I implemented multiple types of sorting and provided <b>Grid</b> and <b>List</b> views.",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -26,6 +258,7 @@ const projectdesc = [
         desc2: "This is a <b>MERN</b> stack and authentication-facilitated project to save the trip journey with images. Users can add, edit, delete, save photos, and view each journey after login. This is adaptive for all devices.",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/Wanderlust%20Chronicles",
         videolink: "",
@@ -77,6 +310,7 @@ const projectdesc = [
             "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
         ],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Websites/Fashion%20Store",
         videolink: "",
@@ -99,6 +333,7 @@ const projectdesc = [
             "A better understanding of the img tag and its styling",
         ],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Websites/Study%20Sync",
         videolink: "",
@@ -124,6 +359,7 @@ const projectdesc = [
             "As the user clicks on any one of them, they are redirected to the shopping page, which contains a card for that item. All the cards are generated dynamically using JavaScript.",
             "The user can also reach the shopping page by using the header.",
         ],
+        CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Websites/Style%20Heaven",
         videolink: "",
@@ -149,6 +385,7 @@ const projectdesc = [
             "Items quantity limit",
             "As quantity greater than alert comes and the quantity box color convert into red",
         ],
+        CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Websites/Shopping%20Cart%20Page",
         videolink: "",
@@ -173,6 +410,7 @@ const projectdesc = [
             "Responsive for every device",
             "CSS Grid, Flex, and Hover effects."
         ],
+        CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Websites/Booken",
         videolink: "",
@@ -201,6 +439,7 @@ const projectdesc = [
             "Includes a Play Again button to allow users to restart the game and try to improve their score.",
 
         ],
+        CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/JS%20Games/BrainStroming",
         videolink: "",
@@ -217,6 +456,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -242,6 +482,7 @@ const projectdesc = [
             "Learned how to implement efficient collision detection algorithms to enhance gameplay realism and responsiveness.",
 
         ],
+        CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/JS%20Games/Car%20Racing",
         videolink: "",
@@ -258,6 +499,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -274,6 +516,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -290,6 +533,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -306,6 +550,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -322,6 +567,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -338,6 +584,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -354,6 +601,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -370,6 +618,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -386,6 +635,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -402,6 +652,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -418,6 +669,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -434,6 +686,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -446,12 +699,19 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "Clone",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "I created a Microsoft UI clone using <b>Tailwind</b> CSS and HTML, incorporating Font Awesome icons. The design features a sleek with hover effects on buttons for a dynamic user experience. This project highlights my ability to replicate professional interfaces with modern styling techniques.",
+        desc2: "I created a Microsoft UI clone using <b>Tailwind</b> CSS and HTML, incorporating Font Awesome icons. The design features a sleek with hover effects on buttons for a dynamic user experience. This project highlights my ability to replicate professional interfaces with modern styling techniques.",
+        learned: [
+            "Enhanced skills in using Tailwind CSS for efficient and responsive design.",
+            "Gained proficiency in integrating Font Awesome icons for a polished look."
+        ],
+        features: [
+            "Sleek Microsoft UI clone with responsive layout.",
+            "Dynamic hover effects on buttons for improved user interaction."
+        ],
+        CSS: "Tailwind",
         modules: "",
-        githublink: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Clone/Microsoft",
         videolink: "",
         livedemo: ""
     },
@@ -462,12 +722,21 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "Clone",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "I created a <b>Myntra</b> UI clone using HTML and CSS. The project replicates the visual design and layout of the Myntra website, focusing on responsive design and clean styling. This project helped me enhance my skills in HTML and CSS, providing a solid foundation for future Web development work.",
+        desc2: "I created a <b>Myntra</b> UI clone using HTML and CSS. The project replicates the visual design and layout of the Myntra website, focusing on responsive design and clean styling. This project helped me enhance my skills in HTML and CSS, providing a solid foundation for future Web development work.",
+        learned: [
+            "Mastered the fundamentals of HTML and CSS for web design.",
+            "Gained experience in creating responsive layouts.",
+            "Enhanced skills in replicating complex UI designs accurately."
+        ],
+        features: [
+            "Responsive design mimicking Myntra's UI across different devices.",
+            "Accurate replication of Myntra's visual design and layout.",
+            "Clean and efficient HTML and CSS code structure."
+        ],
+        CSS: "",
         modules: "",
-        githublink: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Clone/Myntra",
         videolink: "",
         livedemo: ""
     },
@@ -482,6 +751,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -498,6 +768,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -514,6 +785,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -530,6 +802,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -546,6 +819,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -558,12 +832,19 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "Clone",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "I created a Netflix clone using HTML and CSS, featuring two videos that continuously run in a loop. The project includes background images and hover effects, enhancing the user experience. This clone showcases my ability to recreate popular interfaces with interactive elements and dynamic visual appeal.",
+        desc2: "I created a Netflix clone using HTML and CSS, featuring two videos that continuously run in a loop. The project includes background images and hover effects, enhancing the user experience. This clone showcases my ability to recreate popular interfaces with interactive elements and dynamic visual appeal.",
+        learned: [
+            "Improved skills in HTML and CSS for creating complex layouts.",
+            "Enhanced ability to implement video elements and hover effects."
+        ],
+        features: [
+            "Continuous loop of two running videos.",
+            "Incorporated background images and dynamic hover effects."
+        ],
+        CSS: "",
         modules: "",
-        githublink: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Clone/Netflix",
         videolink: "",
         livedemo: ""
     },
@@ -578,6 +859,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -594,6 +876,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -610,6 +893,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -626,6 +910,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -642,6 +927,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -658,6 +944,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -674,6 +961,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -690,6 +978,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -706,6 +995,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -722,6 +1012,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -738,6 +1029,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -750,12 +1042,18 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "Clone",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "I developed a Twitter clone using Tailwind CSS, focusing on its visual design. This project showcases my proficiency in UI replication and styling with Tailwind CSS.",
+        desc2: "I developed a Twitter clone using Tailwind CSS, focusing on its visual design. This project showcases my proficiency in UI replication and styling with Tailwind CSS.",
+        learned: [
+            "Gained expertise in using Tailwind CSS for detailed UI design.",
+            "Explored techniques for replicating social media interfaces with Tailwind CSS."
+        ],
+        features: [
+            "Accurate visual replication of Twitter's interface using Tailwind CSS."
+        ],
+        CSS: "",
         modules: "",
-        githublink: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Clone/Twitter",
         videolink: "",
         livedemo: ""
     },
@@ -770,6 +1068,24 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
+        modules: "",
+        githublink: "",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 50,
+        id: "Real Estate",
+        name: "Real Estate",
+        major: false,
+        type: "REACT",
+        category: "Website",
+        desc1: "",
+        desc2: "",
+        learned: [],
+        features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -786,6 +1102,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -819,6 +1136,7 @@ const projectdesc = [
         modules: [
             "Font Awsome", "React Router Dom"
         ],
+        CSS: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/Website/Health%2B",
         videolink: "",
         livedemo: ""
@@ -834,6 +1152,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -850,6 +1169,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -866,6 +1186,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -882,6 +1203,7 @@ const projectdesc = [
         desc2: "In this I applied my concept of <b>API</b> and fetching the data. I also used React <b>Slick</b> to enable next and previous functionality. I facilitated searching, popular, and trending Anime. When a user clicks on an anime card, they are redirected through React <b>Router</b> to the next page, where they can get more info about the anime.",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/AnimeAtlas",
         videolink: "",
@@ -898,6 +1220,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -914,6 +1237,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -930,22 +1254,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 50,
-        id: "Real Estate",
-        name: "Real Estate",
-        major: false,
-        type: "REACT",
-        category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -962,6 +1271,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -978,6 +1288,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -994,6 +1305,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -1010,6 +1322,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -1026,6 +1339,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -1042,6 +1356,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -1058,6 +1373,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -1074,6 +1390,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -1090,6 +1407,7 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
         videolink: "",
@@ -1119,6 +1437,7 @@ const projectdesc = [
         modules: [
             "Top Loading Bar", "React Router Dom", "Infinite Scroll Bar"
         ],
+        CSS: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/NewsMonkey",
         videolink: "",
         livedemo: ""
@@ -1134,196 +1453,9 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
+        CSS: "",
         modules: "",
         githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-
-
-    {
-        projectNo: 65,
-        id: "Elite Estate",
-        name: "Elite Estate",
-        major: false,
-        type: "NEXTJS",
-        category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 66,
-        id: "StockGuardian",
-        name: "StockGuardian",
-        major: false,
-        type: "NEXTJS",
-        category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 67,
-        id: "Retail Genius",
-        name: "Retail Genius",
-        major: false,
-        type: "NEXTJS",
-        category: "Website",
-        desc1: "This is Ecommerce Project using <b>NEXTJS</b> as frontend and MongoDB for Backend. Which facilate to add, delete and edit item from database. In this i also implemented discount coupen facility enchance it's. After Item added into cart the add to cart button convert into added to cart",
-        desc2: "This is Ecommerce Project using <b>NEXTJS</b> as frontend and MongoDB for Backend. Which facilate to add, delete and edit item from database. In this i also implemented discount coupen facility enchance it's. After Item added into cart the add to cart button convert into added to cart",
-        learned: [
-            "Mastered the fundamental concepts of HTML and CSS.",
-            "Successfully integrated HTML with CSS to create a cohesive design.",
-            "Gained experience with img and table tags for better content presentation.",
-            "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
-        ],
-        feature: [
-            "Mastered the fundamental concepts of HTML and CSS.",
-            "Successfully integrated HTML with CSS to create a cohesive design.",
-            "Gained experience with img and table tags for better content presentation.",
-            "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
-        ],
-        modules: "",
-        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/Retail%20Genius",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 68,
-        id: "AnimeSaga",
-        name: "AnimeSaga",
-        major: false,
-        type: "NEXTJS",
-        category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 69,
-        id: "Travel Trailblazers",
-        name: "Travel Trailblazers",
-        major: false,
-        type: "NEXTJS",
-        category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 70,
-        id: "Point Marker",
-        name: "Point Marker",
-        major: false,
-        type: "NEXTJS",
-        category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 71,
-        id: "SliceMagic",
-        name: "SliceMagic",
-        major: false,
-        type: "NEXTJS",
-        category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 72,
-        id: "FlavorExpress",
-        name: "FlavorExpress",
-        major: false,
-        type: "NEXTJS",
-        category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 73,
-        id: "EntryEase",
-        name: "EntryEase",
-        major: false,
-        type: "NEXTJS",
-        category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 74,
-        id: "GameGlance",
-        name: "GameGlance",
-        major: false,
-        type: "NEXTJS",
-        category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "",
-        videolink: "",
-        livedemo: ""
-    },
-    {
-        projectNo: 75,
-        id: "EventVault",
-        name: "EventVault",
-        major: true,
-        type: "NEXTJS",
-        category: "FULL STACK",
-        desc1: "In this project i used react <b>Leaflet</b> for map and i also used popup and marker facility in map. In this as user select the category any one from selection option as marker position change in the map. User can save the it's favourite event from the map popup option. Even if user reload the page the data will not lost",
-        desc2: "In this project i used react <b>Leaflet</b> for map and i also used popup and marker facility in map. In this as user select the category any one from selection option as marker position change in the map. User can save the it's favourite event from the map popup option. Even if user reload the page the data will not lost",
-        learned: [],
-        features: [],
-        modules: "",
-        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/EventVault",
         videolink: "",
         livedemo: ""
     }
@@ -1406,32 +1538,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderProjectCard(project) {
         return `
-            <div class="project-box" id="${project.id}">
-                <h3>${project.name}</h3>
-                <p>${project.desc1}</p>
-                <div class="links">
-                    <a href="${project.githublink}" target="_blank">
-                        <div class="icon project-box-icon">
-                            <i class="uil uil-github-alt"></i>
-                        </div>
-                    </a>
-                    ${project.livedemo ? `
-                    <a id="modal-demolink" href="${project.livedemo}" target="_blank">
-                        <div class="icon demo-link material-symbols-outlined">
-                            language
-                        </div>
-                    </a>
-                    ` : ''}
-                    ${project.videolink ? `
-                    <a id="modal-videolink" href="${project.videolink}" target="_blank">
-                        <div class="icon material-symbols-outlined">
-                            play_circle
-                        </div>
-                    </a>
-                    ` : ''}
+                <div class="project-box" id="${project.id}">
+                    <h3>${project.name}</h3>
+                    <p>${project.desc1}</p>
+                    <div class="links">
+                        <a href="${project.githublink}" target="_blank">
+                            <div class="icon project-box-icon">
+                                <i class="uil uil-github-alt"></i>
+                            </div>
+                        </a>
+                        ${project.livedemo ? `
+                        <a id="modal-demolink" href="${project.livedemo}" target="_blank">
+                            <div class="icon demo-link material-symbols-outlined">
+                                language
+                            </div>
+                        </a>
+                        ` : ''}
+                        ${project.videolink ? `
+                        <a id="modal-videolink" href="${project.videolink}" target="_blank">
+                            <div class="icon material-symbols-outlined">
+                                play_circle
+                            </div>
+                        </a>
+                        ` : ''}
+                    </div>
                 </div>
-            </div>
-        `;
+            `;
     }
 
     function renderProjects() {
