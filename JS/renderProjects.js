@@ -20,7 +20,7 @@ const projectdesc = [
         projectNo: 67,
         id: "Retail Genius",
         name: "Retail Genius",
-        major: false,
+        major: true,
         type: "NEXTJS",
         category: "FULL STACK",
         desc1: "This is Ecommerce Project using <b>NEXTJS</b> as frontend and MongoDB for Backend. Which facilate to <b>Add</b>, <b>Delete</b> and <b>Edit</b> item from database. In this i also implemented <b>Discount Coupen</b> facility enchance it's. After Item added into cart the add to cart button convert into <b>Added to cart</b>.",
@@ -31,14 +31,14 @@ const projectdesc = [
             "Gained experience with img and table tags for better content presentation.",
             "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
         ],
-        feature: [
+        features: [
             "Mastered the fundamental concepts of HTML and CSS.",
             "Successfully integrated HTML with CSS to create a cohesive design.",
             "Gained experience with img and table tags for better content presentation.",
             "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
         ],
-        CSS: "",
-        modules: "",
+        CSS: "Tailwind",
+        modules: ["Fontawsome", "Axios", "React Router Dom"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/Retail%20Genius",
         videolink: "",
         livedemo: ""
@@ -190,12 +190,20 @@ const projectdesc = [
         major: true,
         type: "NEXTJS",
         category: "FULL STACK",
-        desc1: "In this project i used react <b>Leaflet</b> for map and i also used popup and marker facility in map. In this as user select the category any one from selection option as marker position change in the map. User can save the it's favourite event from the map popup option. Even if user reload the page the data will not lost",
-        desc2: "In this project i used react <b>Leaflet</b> for map and i also used popup and marker facility in map. In this as user select the category any one from selection option as marker position change in the map. User can save the it's favourite event from the map popup option. Even if user reload the page the data will not lost",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
+        desc1: "In this project i used react <b>Leaflet</b> for map and i also used popup and marker facility in map. In this as user select the category any one from selection option as marker position change in the map. User can save the it's favourite event from the map popup option.",
+        desc2: "I utilized React Leaflet for mapping functionalities, incorporating popups and markers. The map dynamically updates marker positions based on the selected category, providing an interactive experience. Users can also save their favorite events directly from the map's popup option. Additionally, I leveraged <b>TypeScript</b> to ensure robust type-checking and improve code quality throughout the development process.",
+        learned: [
+            "Gained proficiency in using React Leaflet for mapping functionalities, including integrating popups and markers.",
+            "Developed dynamic marker updates based on user-selected categories, enhancing interactivity.",
+            "Utilized TypeScript for improved code quality and robust type-checking, ensuring a reliable and maintainable codebase."
+        ],
+        features: [
+            "Interactive map with dynamic marker positions based on category selection.",
+            "Ability to save favorite events directly from the map's popup option.",
+            "TypeScript integration for enhanced code reliability and maintainability."
+        ],
+        CSS: ["Tailwind", "scss"],
+        modules: ["leaflet"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/EventVault",
         videolink: "",
         livedemo: ""
@@ -238,12 +246,22 @@ const projectdesc = [
         type: "REACT",
         category: "FULL STACK",
         desc1: "As the name suggests, this is a React <b>Ecommerce</b> website. On the product page, I implemented multiple types of sorting and provided <b>Grid</b> and <b>List</b> views.",
-        desc2: "As the name suggests, this is a React <b>Ecommerce</b> website. On the product page, I implemented multiple types of sorting and provided <b>Grid</b> and <b>List</b> views.",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc2: "As the name suggests, this is a React Ecommerce website. On the product page, I implemented multiple types of sorting and provided Grid and List views. In this project, I fetch data from an API using Axios. I also created an Add to Cart page where users can see the items they have selected for purchase. I used React <b>Styled Components</b> for styling and implemented ,b>Context</b> and <b>Reducer</b> for state management.",
+        learned: [
+            "Learned the use of React for building dynamic web applications.",
+            "Gained experience in fetching data from an API using Axios.",
+            "Used React Styled Components for component-level styling.",
+            "Implemented Context and Reducer for state management in React."
+        ],
+        features: [
+            "Multiple types of sorting on the product page.",
+            "Grid and List views for product display.",
+            "Add to Cart page for managing user-selected items.",
+            "Fetching data from an API using Axios."
+        ],
+        CSS: ["Styled Component"],
+        modules: ["Styled Componet", "React Icons", "Axios", "Context", "React Router Dom"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/React%20Ecommerce",
         videolink: "",
         livedemo: ""
     },
@@ -251,15 +269,25 @@ const projectdesc = [
         projectNo: 63,
         id: "Wanderlust Chronicles",
         name: "Wanderlust Chronicles",
-        major: false,
+        major: true,
         type: "REACT",
         category: "FULL STACK",
         desc1: "This is a <b>MERN</b> stack and authentication-facilitated project to save the trip journey with images. Users can add, edit, delete, save photos, and view each journey after login. This is adaptive for all devices.",
         desc2: "This is a <b>MERN</b> stack and authentication-facilitated project to save the trip journey with images. Users can add, edit, delete, save photos, and view each journey after login. This is adaptive for all devices.",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
+        learned: [
+            "Gained proficiency in developing a full-stack application using the MERN stack.",
+            "Enhanced understanding of implementing authentication and authorization in web applications.",
+            "Developed skills in handling and storing images using MongoDB GridFS.",
+            "Learned to create a responsive and adaptive design suitable for all devices."
+        ],
+        features: [
+            "User authentication and authorization for secure access.",
+            "CRUD functionalities for managing trips and associated images.",
+            "Image upload, storage, and retrieval using MongoDB GridFS.",
+            "Responsive design ensuring compatibility across various devices."
+        ],
+        CSS: [],
+        modules: ["Axios", "Toastify", "React Router Dom"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/Wanderlust%20Chronicles",
         videolink: "",
         livedemo: ""
@@ -323,16 +351,20 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "Website",
-        desc1: "It is a simple single-page website.",
-        desc2: "It is a simple single-page website.",
+        desc1: "In the Study Sync project, I used the <b>CSS transition</b> property and created a <b>beautiful UI</b> for a good user experience. I made several sections such as the navbar, hero section, footer, newsletter, and company trust section. This project is fully <b>responsive</b> for all devices. For smaller devices, I made a <b>hamburger menu</b> for navigation.",
+        desc2: "In the Study Sync project, I used the <b>CSS transition</b> property and created a <b>beautiful UI</b> for a good user experience. I made several sections such as the navbar, hero section, footer, newsletter, and company trust section. I learned <b>CSS Grid</b>, <b>Flexbox</b>, and <b>transitions</b>. This project is fully <b>responsive</b> for all devices. For smaller devices, I made a <b>hamburger menu</b> for navigation.",
         learned: [
-            "CSS Variables",
-            "CSS Grid",
-            "CSS Transitions",
-            "The concept of the flex property and its functionality",
-            "A better understanding of the img tag and its styling",
+            "Used the CSS transition property to enhance UI aesthetics.",
+            "Created a beautiful UI for an improved user experience.",
+            "Developed skills in CSS Grid, Flexbox, and transitions.",
+            "Ensured the project is fully responsive for all devices, including creating a hamburger menu for smaller devices."
         ],
-        features: [],
+        features: [
+            "Beautiful UI with smooth CSS transitions for a better user experience.",
+            "Several well-defined sections: navbar, hero section, footer, newsletter, and company trust section.",
+            "Fully responsive design suitable for all devices.",
+            "Hamburger menu for navigation on smaller devices."
+        ],
         CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Websites/Study%20Sync",
@@ -469,8 +501,8 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "JS Games",
-        desc1: "In this game, a car continuously moves along a road. The goal is to avoid obstacles (blue blocks) that appear in different lanes. The score increases continuously, and the game ends if our car collides with an obstacle.",
-        desc2: "In this game, you control a car that is constantly moving along a road. Your objective is to navigate through traffic while avoiding obstacles (represented as blue blocks) that appear in different lanes. As you progress, the game keeps track of your score, which increases with every successful dodge. However, if your car collides with any obstacle, the game ends. The challenge lies in reacting quickly to changing lane configurations and maintaining a high score without crashing.",
+        desc1: "In this game, a car <b>Continuously</b> moves along a road. The goal is to avoid <b>Obstacles</b> (blue blocks) that appear in different lanes. The <b>Score</b> increases continuously, and the game ends if our car collides with an obstacle.",
+        desc2: "In this game, you control a car that is <b>Continuously</b> moving along a road. Your objective is to navigate through traffic while avoiding <b>Obstacles</b> (represented as blue blocks) that appear in different lanes. As you progress, the game keeps track of your score, which increases with every successful dodge. However, if your car <b>Collides</b> with any obstacle, the game ends. The challenge lies in reacting quickly to changing lane configurations and maintaining a high score without crashing.",
         learned: [
             "Implemented continuous animation and movement mechanics using game loops or animation frames in JavaScript.",
             "Developed collision detection algorithms to detect when the car collides with obstacles and trigger game over conditions.",
@@ -480,7 +512,6 @@ const projectdesc = [
         features: [
             "Learned creating smooth and continuous animation in games using JavaScript.",
             "Learned how to implement efficient collision detection algorithms to enhance gameplay realism and responsiveness.",
-
         ],
         CSS: "",
         modules: "",
@@ -495,13 +526,23 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "JS Games",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "I made a number game using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> in which I divided one <b>container</b> into a total of <b>16 squares</b>. The user has to arrange <b>15 numbers</b> in sequence to <b>win the game</b>. On the <b>right-hand side</b>, there are two parts: one contains the <b>score</b> and <b>time</b>, and the second part has a <b>New Game button</b> for starting a new game.",
+        desc2: "I made a number game using <b>HTML</b>, <b>CSS</b>, and <b>JavaScript</b> in which I divided one <b>container</b> into a total of <b>16 squares</b>. The user has to arrange <b>15 numbers</b> in sequence to <b>win the game</b>. On the <b>right-hand side</b>, there are two parts: one contains the <b>score</b> and <b>time</b>, and the second part has a <b>New Game button</b> for starting a new game.",
+        learned: [
+            "Gained experience in creating an interactive number game using HTML, CSS, and JavaScript.",
+            "Learned how to divide a container into multiple squares for game layout.",
+            "Implemented game logic to allow users to arrange numbers in sequence.",
+            "Developed a user interface that includes score and time tracking, as well as a 'New Game' button."
+        ],
+        features: [
+            "A number game where users arrange 15 numbers in sequence to win.",
+            "The game board is divided into 16 squares for the user to interact with.",
+            "Score and time tracking displayed on the right-hand side.",
+            "A 'New Game' button that allows users to start a new game easily."
+        ],
         CSS: "",
         modules: "",
-        githublink: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/JS%20Games/Number%20Arrange",
         videolink: "",
         livedemo: ""
     },
@@ -737,7 +778,7 @@ const projectdesc = [
         CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Clone/Myntra",
-        videolink: "",
+        videolink: "https://drive.google.com/file/d/1ApO6nvfbKnTaGU4kMohJxvKkpp_UNGsF/view?usp=sharing",
         livedemo: ""
     },
     {
@@ -781,13 +822,21 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "API",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "CoinValue is a website where users can find the current price of <b>cryptocurrencies</b>. By default, the prices of <b>Dogecoin</b>, <b>Ethereum</b>, and <b>Bitcoin</b> are shown using <b>JavaScript</b>. I fetch data from an <b>API</b> using <b>JavaScript</b>. On this website, users can search for the name of a <b>cryptocurrency</b>, and a card is generated with the current price and coin logo.",
+        desc2: "CoinValue is a website where users can find the current price of <b>cryptocurrencies</b>. By default, the prices of <b>Dogecoin</b>, <b>Ethereum</b>, and <b>Bitcoin</b> are shown using <b>JavaScript</b>. I fetch data from an <b>API</b> using <b>JavaScript</b>. On this website, users can search for the name of a <b>cryptocurrency</b>, and a card is generated with the current price and coin logo.",
+        learned: [
+            "Improved understanding of APIs and how to fetch data using JavaScript.",
+            "Gained experience in dynamically updating the DOM based on user input.",
+            "Enhanced skills in handling asynchronous operations with promises and async/await."
+        ],
+        features: [
+            "Displays current prices of Dogecoin, Ethereum, and Bitcoin by default.",
+            "Allows users to search for any cryptocurrency and generates a card with its current price and logo.",
+            "Updates in real-time by fetching data from a reliable cryptocurrency API."
+        ],
         CSS: "",
         modules: "",
-        githublink: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/API/CoinValue",
         videolink: "",
         livedemo: ""
     },
@@ -1025,13 +1074,22 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "API",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "Vision Vintage is an API-based website where I used the <b>Pexels API</b> to get images. All the images are generated dynamically by <b>JavaScript</b>. This website has a <b>Search Functionality</b> by which users can get the images they want. It is also fully <b>Responsive</b> for all devices.",
+        desc2: "Vision Vintage is an API-based website where I used the <b>Pexels API</b> to get images. All the images are generated dynamically by <b>JavaScript</b>. This website has a <b>Search Functionality</b> by which users can get the images they want. It is also fully <b>Responsive</b> for all devices.",
+        learned: [
+            "Mastered the integration of the Pexels API to fetch and display images dynamically.",
+            "Improved proficiency in using JavaScript to manipulate the DOM based on API responses.",
+            "Gained experience in implementing search functionality to filter and display specific content.",
+            "Enhanced skills in creating fully responsive web designs compatible with various devices."
+        ],
+        features: [
+            "Fetches images dynamically from the Pexels API.",
+            "Provides a search functionality for users to find specific images.",
+            "Ensures all images and content are displayed responsively across all devices."
+        ],
         CSS: "",
         modules: "",
-        githublink: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/API/VisionVantage",
         videolink: "",
         livedemo: ""
     },
@@ -1199,12 +1257,20 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "API",
-        desc1: "In this I applied my concept of <b>API</b> and fetching the data. I also used React <b>Slick</b> to enable next and previous functionality. I facilitated searching, popular, and trending Anime. When a user clicks on an anime card, they are redirected through React <b>Router</b> to the next page, where they can get more info about the anime.",
-        desc2: "In this I applied my concept of <b>API</b> and fetching the data. I also used React <b>Slick</b> to enable next and previous functionality. I facilitated searching, popular, and trending Anime. When a user clicks on an anime card, they are redirected through React <b>Router</b> to the next page, where they can get more info about the anime.",
-        learned: [],
-        features: [],
+        desc1: "In this I applied my concept of <b>API</b> and fetching the data. I also used <b>React Slick</b> to enable next and previous functionality. I facilitated searching, popular, and trending Anime. When a user clicks on an anime card, they are redirected through React <b>Router</b> to the next page, where they can get more info about the anime.",
+        desc2: "In this I applied my concept of <b>API</b> and fetching the data. I also used <b>React Slick</b> to enable next and previous functionality. I facilitated searching, popular, and trending Anime. When a user clicks on an anime card, they are redirected through React <b>Router</b> to the next page, where they can get more info about the anime. Ther i make one video section for trailer of that anime and below that i listed all the character of anime using react slick",
+        learned: [
+            "Successfully integrated HTML with CSS to create a cohesive design.",
+            "Implemented API integration in React to fetch dynamic data, enhancing real-time content capabilities.",
+            "Utilized React Slick within the React framework for carousel navigation, improving user experience with seamless next and previous functionality."
+        ]
+        ,
+        features: [
+            "Implemented search, popular, and trending sections for easy navigation and discovery of anime content.",
+            "Created a detailed anime information page with a video section for trailers and a character carousel using React Slick.",
+        ],
         CSS: "",
-        modules: "",
+        modules: ["React slick", "React Router Dom", "React Icon"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/AnimeAtlas",
         videolink: "",
         livedemo: ""
