@@ -775,7 +775,9 @@ footer {
     font-size: 40px;
   }
 
-  .project-box {
+    .project-box {
+    height: fit-content;
+    padding: 10px 15px;
     width: 100%;
   }
 
