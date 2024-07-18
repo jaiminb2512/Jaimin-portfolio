@@ -215,8 +215,8 @@ const projectdesc = [
         major: false,
         type: "NEXTJS",
         category: "FULL STACK",
-        desc1: "This full-stack <b>Real Estate</b> management project, built with Next.js and MongoDB, allows users to manage property data efficiently. The application features a form to input <b>Property Petails</b> such as title, contact information, image URL, and description. This ensures seamless property management and data storage.",
-        desc2: "This full-stack <b>Real Estate</b> management project, built with Next.js and MongoDB, allows users to manage property data efficiently. The application features a form to input <b>Property Petails</b> such as title, contact information, image URL, and description. This ensures seamless property management and data storage.",
+        desc1: "This full-stack <b>Elite Estate</b> management project, built with Next.js and MongoDB, allows users to manage property data efficiently. The application features a form to input <b>Property Petails</b> such as title, contact information, image URL, and description. This ensures seamless property management and data storage.",
+        desc2: "This full-stack <b>Elite Estate</b> management project, built with Next.js and MongoDB, allows users to manage property data efficiently. The application features a form to input <b>Property Petails</b> such as title, contact information, image URL, and description. This ensures seamless property management and data storage.",
         learned: [
             "Gained proficiency in building full-stack applications using Next.js and MongoDB.",
             "Enhanced skills in using Axios for making HTTP requests to interact with the backend.",
@@ -1139,13 +1139,22 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "Real Estate is a <b>Multi-Page</b> React UI website using <b>Leaflet</b> for the map and <b>SCSS</b> for styling. Data is fetched from the backend and displayed in cards with state info. A map with <b>Markers</b> shows locations. Clicking a card redirects to detailed pages via React Router DOM. Includes user profile pages.",
+        desc2: "Real Estate is a <b>Multi-Page</b> UI website made using React. I used <b>Leaflet</b> for the map and <b>SCSS</b> for styling. In this project, I fetch all the data from the backend and render it using React components. Users can see all the states in the form of cards, which contain the data of each state on the left-hand side. On the right-hand side, the map shows all the states using map <b>Markers</b>. I also used map popups for displaying data on the map. When users click on any one of the cards, they are redirected to another page using React Router DOM, which contains the data of that site. I also created a user profile page.",
+        learned: [
+            "Mastered the integration of Leaflet with React for interactive maps.",
+            "Implemented SCSS for styling the components.",
+            "Created dynamic map markers and popups in Leaflet."
+        ],
+        features: [
+            "Multi-page UI website made using React.",
+            "Interactive maps with Leaflet.",
+            "Data fetched from the backend and rendered using React components.",
+            "User profile pages for managing user information."
+        ],
+        CSS: ["SCSS"],
+        modules: ["React Leaflet", "React Icon", "React Router Dom"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/Website/Real%20state",
         videolink: "",
         livedemo: ""
     },
@@ -1156,13 +1165,24 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
+        desc1: "Digital Diaries is a <b>Single-page UI</b> website that I made using React.js. For styling, I used <b>SASS</b>. I divided this website into several parts, including the navbar, blog, cards, footer, etc. I fetch all the data from a JavaScript file and render that data.",
+        desc2: "Digital Diaries is a <b>Single-page UI</b> website that I made using React.js. For styling, I used <b>SASS</b>. I divided this website into several parts, including the navbar, blog, cards, footer, etc. I fetch all the data from a JavaScript file and render that data.",
+        learned: [
+            "Gained proficiency in creating single-page applications using React.js.",
+            "Improved skills in SASS for advanced and modular CSS styling.",
+            "Learned to effectively divide a website into reusable components like navbar, blog, cards, and footer.",
+            "Acquired experience in fetching and rendering data from a JavaScript file."
+
+        ],
+        features: [
+            "Single-page application with seamless navigation.",
+            "Modular and reusable components for efficient code management.",
+            "Responsive design ensuring a consistent user experience across devices.",
+            "Dynamic data rendering from a JavaScript file for real-time content updates."
+        ],
+        CSS: ["SASS"],
         modules: "",
-        githublink: "",
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/Website/Digital%20Diaries",
         videolink: "",
         livedemo: ""
     },
@@ -1299,47 +1319,101 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "Task Tracker is a website where you can store tasks you want to save. After completing a task, it disappears from the list if the <b>Show Finished</b> checkbox is not selected. You can also <b>Edit</b> and <b>Delete</b> your tasks. On the right-hand side, there is a color option, allowing users to select the website <b>Theme color</b> they prefer. I used <b>Tailwind CSS</b> for this project.",
+        desc2: "Task Tracker is a website where you can store tasks you want to save. After completing a task, it disappears from the list if the <b>Show Finished</b> checkbox is not selected. You can also <b>Edit</b> and <b>Delete</b> your tasks. On the right-hand side, there is a color option, allowing users to select the website <b>Theme color</b> they prefer. I used <b>Tailwind CSS</b> for this project.",
+        learned: [
+            "Improved understanding of state management in JavaScript to dynamically update and manage the task list.",
+            "Gained proficiency in using Tailwind CSS to create responsive and customizable user interfaces.",
+            "Enhanced skills in implementing CRUD (Create, Read, Update, Delete) operations in a web application."
+        ],
+        features: [
+            "Add, edit, and delete tasks with ease.",
+            "Option to filter out completed tasks with the 'Show Finished' checkbox.",
+            "Customizable theme colors using Tailwind CSS, allowing users to personalize the website's appearance."
+        ],
+        CSS: ["Tailwind"],
+        modules: ["UUID"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/Website/TaskTrack",
+        videolink: "",
+        livedemo: ""
+    },
+    {
+        projectNo: 76,
+        id: "Text Changer",
+        name: "Text Changer",
+        major: false,
+        type: "REACT",
+        category: "Website",
+        desc1: "TextChanger is a versatile website for text <b>Manipulation</b>, offering features like uppercase and lowercase conversion, paragraph formatting, copying text, removing extra spaces, and clearing all text. It also provides a text summary with word and <b>character counts</b>, and <b>reading time</b>. Tailwind CSS enhances the styling, and it includes <b>Dark</b> and <b>Light</b> modes.",
+        desc2: "TextChanger is a website where you can perform the following operations on text: <b>1. Convert to uppercase, 2. Convert to lowercase, 3. Convert to paragraph, 4. Copy text, 5. Remove extra spaces 6. Clear all</b> Additionally, I created a text summary section that displays the number of words, the number of characters, and the estimated reading time. At the end, there's a preview section. After successfully implementing all operations, I added an <b>Alert</b> functionality. I also implemented <b>Dark</b> and <b>Light</b> mode features. For styling, I used <b>Tailwind CSS</b>.",
+        learned: [
+            "Mastered text manipulation techniques in JavaScript.",
+            "Gained experience with Tailwind CSS for responsive and efficient styling.",
+            "Implemented dynamic alert functionality for user feedback.",
+            "Developed dark and light mode toggle for improved user experience."
+        ],
+        features: [
+            "Convert text to uppercase and lowercase.",
+            "Format text into paragraphs and remove extra spaces.",
+            "Copy text and clear all content with a single click.",
+            "View text summary with word count, character count, and reading time estimation."
+        ],
+        CSS: ["Tailwind"],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/Website/Text%20changer",
         videolink: "",
         livedemo: ""
     },
     {
         projectNo: 49,
-        id: "Rent Car",
-        name: "Rent Car",
+        id: "Car Rental",
+        name: "Car Rental",
         major: false,
         type: "REACT",
         category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "Car Rental is responsive <b>Single-page</b> car rental website featuring a dynamic image carousel at the top. Discover our extensive range of vehicles sourced from our detailed JavaScript database. Enjoy customer testimonials, informative blogs, and easy-to-use search functionality. Experience seamless browsing on any device with our fully responsive design.",
+        desc2: "I've created a <b>Single-page</b> UI website for car rentals that is fully <b>Responsive</b> across all devices. At the top, there's a container with continuously changing images at set intervals. Below that, i placed a search component, followed by sections detailing what you offer and about your services. i've listed all your car data, which comes from another JavaScript file. Then, you showcase testimonials and blogs. Finally, at the bottom, there's a footer component.",
+        learned: [
+            "Mastered creating a fully responsive single-page UI for car rentals.",
+            "Implemented dynamic image carousel functionality using JavaScript.",
+            "Enhanced user experience with intuitive search and detailed vehicle listings."
+        ],
+        features: [
+            "Dynamic image carousel at the top for engaging visual experience.",
+            "Comprehensive search component for easy vehicle selection.",
+            "Customer testimonials and informative blogs for user trust and engagement.",
+            "Footer component providing essential contact and social media links."
+        ],
+        CSS: [],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/Website/Car%20Rental",
         videolink: "",
         livedemo: ""
     },
     {
         projectNo: 51,
-        id: "App iphone",
-        name: "App iphone",
+        id: "Apple iphone 15",
+        name: "Apple iphone 15",
         major: false,
         type: "REACT",
         category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "This project is an Apple iPhone 15 <b>UI Clone</b> website using React and <b>Tailwind CSS</b>. It features a video of the phone, a slider with continuously running videos, and indicators for active videos. Additionally, it includes a phone size container for users to view the phone in various sizes and colors.",
+        desc2: "This is an Apple iPhone 15 <b>UI Clone</b> website using React and <b>Tailwind</b> for CSS styling. I divided this website into several components. First, I added a video of the phone. Then, I made a slider containing 4 cards, each having one video with no controller. All the videos continuously run. After this, there is a container with 4 dots showing which video is playing and a pause button next to it. I also made a phone size container where users can see the phone in different sizes and colors.",
+        learned: [
+            "Mastered component-based development using React.",
+            "Enhanced CSS styling skills with Tailwind CSS.",
+            "Gained experience in implementing video sliders without controllers.",
+            "Improved understanding of responsive design for different phone sizes and colors."
+        ],
+        features: [
+            "Integrated video of the Apple iPhone 15.",
+            "Slider with 4 continuously running video cards.",
+            "Visual indicators showing the active video and a pause button.",
+            "Phone size container displaying the phone in various sizes and colors."
+        ],
+        CSS: ["Tailwind"],
+        modules: ["Three","gsap"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/Website/Iphone%2015%20clone",
         videolink: "",
         livedemo: ""
     },
