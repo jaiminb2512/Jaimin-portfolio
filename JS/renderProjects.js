@@ -822,8 +822,8 @@ const projectdesc = [
         major: false,
         type: "HTML CSS JS",
         category: "API",
-        desc1: "CoinValue is a website where users can find the current price of <b>cryptocurrencies</b>. By default, the prices of <b>Dogecoin</b>, <b>Ethereum</b>, and <b>Bitcoin</b> are shown using <b>JavaScript</b>. I fetch data from an <b>API</b> using <b>JavaScript</b>. On this website, users can search for the name of a <b>cryptocurrency</b>, and a card is generated with the current price and coin logo.",
-        desc2: "CoinValue is a website where users can find the current price of <b>cryptocurrencies</b>. By default, the prices of <b>Dogecoin</b>, <b>Ethereum</b>, and <b>Bitcoin</b> are shown using <b>JavaScript</b>. I fetch data from an <b>API</b> using <b>JavaScript</b>. On this website, users can search for the name of a <b>cryptocurrency</b>, and a card is generated with the current price and coin logo.",
+        desc1: "CoinValue is a website where users can find the current price of <b>cryptocurrencies</b>. By default, the prices of <b>Dogecoin</b>, <b>Ethereum</b>, and <b>Bitcoin</b> are shown using <b>JavaScript</b>. I fetch data from an API using <b>JavaScript</b>. On this website, users can search for the name of a <b>cryptocurrency</b>, and a card is generated with the current price and coin logo.",
+        desc2: "CoinValue is a website where users can find the current price of <b>cryptocurrencies</b>. By default, the prices of <b>Dogecoin</b>, <b>Ethereum</b>, and <b>Bitcoin</b> are shown using <b>JavaScript</b>. I fetch data from an API using <b>JavaScript</b>. On this website, users can search for the name of a <b>cryptocurrency</b>, and a card is generated with the current price and coin logo.",
         learned: [
             "Improved understanding of APIs and how to fetch data using JavaScript.",
             "Gained experience in dynamically updating the DOM based on user input.",
@@ -1230,9 +1230,9 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        CSS: [],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/Weather%20app",
         videolink: "",
         livedemo: ""
     },
@@ -1243,13 +1243,22 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "API",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "GameVault is a single-page website that provides information on trending and famous games. It features a <b>header</b> with a <b>logo</b>, <b>search bar</b>, and <b>mode selection</b>; a <b>right-hand side</b> with <b>categories</b>, a <b>top banner</b>, <b>trending games</b> list, and <b>game cards</b>. It uses <b>Axios</b> for data fetching and <b>Tailwind CSS</b> for styling.",
+        desc2: "GameVault is a website where users can get information about trending and famous games of all time. This is a single-page website divided into three parts: <b>header</b>, <b>right-hand</b>, and <b>left-hand</b>. The <b>header</b> contains the <b>logo</b>, <b>search bar</b>, and <b>mode selection</b>. The <b>right-hand side</b> contains the <b>category</b> section, allowing users to select different categories. The <b>right-hand side</b> is further divided into three parts: a <b>top banner</b>, a list of <b>trending games</b>, and <b>game cards</b> based on user selection, which display data about the game, such as photo and rating. I used <b>Axios</b> for data fetching and <b>Tailwind CSS</b> for styling.",
+        learned: [
+            "Gained experience in creating single-page websites with a header, right-hand side, and left-hand side layout.",
+            "Improved skills in using Axios for data fetching.",
+            "Enhanced styling techniques with Tailwind CSS."
+        ],
+        features: [
+            "Provides information on trending and famous games.",
+            "Includes a header with logo, search bar, and mode selection.",
+            "Features a right-hand side with categories, a top banner, trending games list, and game cards.",
+            "Utilizes Axios for data fetching and Tailwind CSS for styling."
+        ],
+        CSS: ["Tailwind"],
+        modules: ["Axios"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/GameVault",
         videolink: "",
         livedemo: ""
     },
@@ -1260,13 +1269,23 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "API",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "Film Find Hub is an API-based website where users can search for movies or shows. Results are shown based on the query. Clicking a card redirects to more info. Custom <b>Page Not Found</b> page created. Utilized React Slick, Axios, and React Router DOM. Default render is Fast and Furious.",
+        desc2: "Film Find Hub is an API-based website where users can search for the name of a movie or show. After the search, results are shown based on the query, rendering the movies and shows. When a user clicks on a movie or show card, they will be redirected to another page where they can get more information about that movie or show. I also created a custom <b>Page Not Found</b> page. I used <b>React Slick</b> and <b>Axios</b> for data fetching, and <b>React Router DOM</b> for page navigation. By default, I render the <b>Fast and Furious</b> set.",
+        learned: [
+            "Implemented search functionality using API integration.",
+            "Gained experience with rendering search results dynamically.",
+            "Learned how to use React Router DOM for navigation between pages.",
+            "Created a custom 'Page Not Found' page for better user experience."
+        ],
+        features: [
+            "Users can search for movies and shows by name.",
+            "Results are displayed based on the query, rendering the movies and shows.",
+            "Clicking on a movie or show card redirects users to a detailed information page.",
+            "Custom 'Page Not Found' page created for handling invalid URLs."
+        ],
+        CSS: [],
+        modules: ["React Slick", "React Router Dom", "Axios", "React Redux"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/Film%20Find%20Hub",
         videolink: "",
         livedemo: ""
     },
@@ -1277,8 +1296,8 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "API",
-        desc1: "In this I applied my concept of <b>API</b> and fetching the data. I also used <b>React Slick</b> to enable next and previous functionality. I facilitated searching, popular, and trending Anime. When a user clicks on an anime card, they are redirected through React <b>Router</b> to the next page, where they can get more info about the anime.",
-        desc2: "In this I applied my concept of <b>API</b> and fetching the data. I also used <b>React Slick</b> to enable next and previous functionality. I facilitated searching, popular, and trending Anime. When a user clicks on an anime card, they are redirected through React <b>Router</b> to the next page, where they can get more info about the anime. Ther i make one video section for trailer of that anime and below that i listed all the character of anime using react slick",
+        desc1: "In this I applied my concept of API and fetching the data. I also used <b>React Slick</b> to enable next and previous functionality. I facilitated searching, popular, and trending Anime. When a user clicks on an anime card, they are redirected through React <b>Router</b> to the next page, where they can get more info about the anime.",
+        desc2: "In this I applied my concept of API and fetching the data. I also used <b>React Slick</b> to enable next and previous functionality. I facilitated searching, popular, and trending Anime. When a user clicks on an anime card, they are redirected through React <b>Router</b> to the next page, where they can get more info about the anime. Ther i make one video section for trailer of that anime and below that i listed all the character of anime using react slick",
         learned: [
             "Successfully integrated HTML with CSS to create a cohesive design.",
             "Implemented API integration in React to fetch dynamic data, enhancing real-time content capabilities.",
@@ -1302,13 +1321,22 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "API",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "FlavorFinder is an API-based food website where users can search for dishes and get recipes. It features a search bar, category sections, and detailed recipe information. The site uses <b>SCSS</b> for styling, <b>Axios</b> for data fetching, <b>React Router DOM</b> for navigation, and <b>React Icons</b> for icons.",
+        desc2: "FlavorFinder is an API-based, fully responsive food website where users can search for the name of a dish and get its recipe. On the homepage, there is a search facility above the category section. When a user clicks on any category, all the recipes that fall in that category are rendered, and the user can then choose a dish to get its recipe information. I used <b>SCSS</b> for styling, <b>Axios</b> for data fetching, <b>React Router DOM</b> for navigation, and <b>React Icons</b> for icons.",
+        learned: [
+            "Improved API integration skills using <b>Axios</b>.",
+            "Enhanced styling techniques with <b>SCSS</b>.",
+            "Mastered navigation with <b>React Router DOM</b>."
+        ],
+        features: [
+            "Search for dishes and get recipes.",
+            "Category-based recipe browsing.",
+            "Detailed recipe information.",
+            "Fully responsive design."
+        ],
+        CSS: ["SCSS"],
+        modules: ["Axios", "React Router Dom", "React Icons"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/FlavorFinder",
         videolink: "",
         livedemo: ""
     },
@@ -1412,7 +1440,7 @@ const projectdesc = [
             "Phone size container displaying the phone in various sizes and colors."
         ],
         CSS: ["Tailwind"],
-        modules: ["Three","gsap"],
+        modules: ["Three", "gsap"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/Website/Iphone%2015%20clone",
         videolink: "",
         livedemo: ""
@@ -1424,13 +1452,13 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "API",
-        desc1: "",
-        desc2: "",
+        desc1: "GifFusion is an API website where users can search for <b>GIF images</b> they want. It is a <b>single-page website</b> with a <b>search functionality</b> at the top. Below the search bar, there are three buttons: <b>Liked</b>, <b>Trending</b>, and <b>Random</b>, each providing the respective functionality. Below these buttons, a list of <b>GIF images</b> is displayed, each with a <b>like option</b>.",
+        desc2: "GifFusion is an API website where users can search for <b>GIF images</b> they want. It is a <b>single-page website</b> with a <b>search functionality</b> at the top. Below the search bar, there are three buttons: <b>Liked</b>, <b>Trending</b>, and <b>Random</b>, each providing the respective functionality. Below these buttons, a list of <b>GIF images</b> is displayed, each with a <b>like option</b>.",
         learned: [],
         features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        CSS: [],
+        modules: ["Axios", "Dotenv"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/GifFusion",
         videolink: "",
         livedemo: ""
     },
@@ -1445,9 +1473,9 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        CSS: [],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/Registration%20Page",
         videolink: "",
         livedemo: ""
     },
@@ -1462,9 +1490,9 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        CSS: [],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/FitHub",
         videolink: "",
         livedemo: ""
     },
@@ -1479,9 +1507,9 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        CSS: [],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/GroceyNest",
         videolink: "",
         livedemo: ""
     },
@@ -1496,9 +1524,9 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        CSS: [],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack",
         videolink: "",
         livedemo: ""
     },
@@ -1513,9 +1541,9 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        CSS: [],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/PointSaver",
         videolink: "",
         livedemo: ""
     },
@@ -1526,13 +1554,23 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "API",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "PageSeek is an API-based single-page website where users can search for and get information regarding <b>books</b>. It is fully <b>responsive</b> for all devices. For smaller screens, I made a <b>hamburger menu</b> for navigation. After a search, the cards are generated containing the <b>book cover</b>, <b>author name</b>, <b>total editions</b>, and <b>publication year</b>.",
+        desc2: "PageSeek is an API-based single-page website where users can search for and get information regarding <b>books</b>. It is fully <b>responsive</b> for all devices. For smaller screens, I made a <b>hamburger menu</b> for navigation. After a search, the cards are generated containing the <b>book cover</b>, <b>author name</b>, <b>total editions</b>, and <b>publication year</b>.",
+        learned: [
+            "Mastered the integration of API data into a single-page application.",
+            "Improved responsive design skills to ensure usability across all devices.",
+            "Enhanced knowledge of creating and managing dynamic content with JavaScript.",
+            "Gained experience in implementing navigation menus for smaller screens."
+        ],
+        features: [
+            "API-based search functionality for books.",
+            "Fully responsive design with a hamburger menu for smaller screens.",
+            "Dynamic card generation displaying book cover, author name, total editions, and publication year.",
+            "User-friendly interface ensuring easy navigation and access to information."
+        ],
+        CSS: [],
+        modules: ["Axios"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/PageSeek",
         videolink: "",
         livedemo: ""
     },
@@ -1543,13 +1581,25 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "API",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "Crypto Nexus is a cryptocurrency website where users can see the current price of all cryptocurrencies. I made two pages: on the homepage, I listed several cryptocurrencies, and on the second page, I listed all the cryptocurrencies. In the footer, I added two icons using React Icons: one for the homepage and one for my LinkedIn profile. This website is fully responsive for all devices.",
+        desc2: "Crypto Nexus is a cryptocurrency website where users can see the current price of all cryptocurrencies. I made two pages: on the homepage, I listed several cryptocurrencies, and on the second page, I listed all the cryptocurrencies. In the footer, I added two icons using React Icons: one for the homepage and one for my LinkedIn profile. This website is fully responsive for all devices.",
+        learned: [
+            "Gained experience in building a responsive website",
+            "Learned to use Axios for fetching data",
+            "Learned to format numbers using Millify",
+            "Improved skills in React Router for navigation",
+            "Enhanced knowledge of using React Icons for adding icons"
+        ],
+        features: [
+            "View current prices of all cryptocurrencies",
+            "Homepage listing several cryptocurrencies with their current prices",
+            "Dedicated page for listing all cryptocurrencies with their prices",
+            "Footer with icons linking to the homepage and LinkedIn profile",
+            "Fully responsive design for all devices"
+        ],
+        CSS: [],
+        modules: ["Axios", "Milify", "React Router Dom", "React Icons"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/CryptoNexus",
         videolink: "",
         livedemo: ""
     },
@@ -1593,9 +1643,9 @@ const projectdesc = [
         desc2: "",
         learned: [],
         features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        CSS: [],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/NoteNexus",
         videolink: "",
         livedemo: ""
     }
@@ -1613,10 +1663,26 @@ function myMenuFunction() {
 }
 
 
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+});
+
+
+sr.reveal('.sorting-projects', {});
+sr.reveal('.category', {});
+sr.reveal('.project-box', { interval: 200 })
+
+document.querySelector('.sorting-projects button').classList.add('btnActive');
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const typeButtons = document.querySelectorAll('.sorting-projects .type button');
     const categorySection = document.querySelector('.category');
-    const projectContainer = document.querySelector('.project-container');
+    const projectContainer = document.querySelector('.project-container');  
     const modal = document.getElementById('modal');
     const modalName = document.getElementById('modal-name');
     const modalLearned = document.getElementById('modal-learned');
@@ -1625,6 +1691,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalDemolink = document.getElementById('modal-demolink');
     const modalFeatures = document.getElementById('modal-features');
     const closeButton = document.querySelector('.close');
+    const modalVideo = document.getElementById("modal-video");
+    const modalVideoSource = document.getElementById("modal-video-src");
+
+    console.log(modalVideo)
+    console.log(modalVideoSource)
 
     let selectedType = '';
     let selectedCategory = '';
@@ -1701,6 +1772,8 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </a>
                         ` : ''}
+
+                        
                     </div>
                 </div>
             `;
@@ -1713,12 +1786,12 @@ document.addEventListener('DOMContentLoaded', () => {
             filteredProjects = projectdesc.filter(project => {
                 const typeMatch = !selectedType || project.type === selectedType;
                 const categoryMatch = !selectedCategory || project.category === selectedCategory;
-                return typeMatch && categoryMatch;
+                return typeMatch && categoryMatch && project.desc1.trim() !== '';
             });
         } else if (filterMode === 'Major') {
-            filteredProjects = projectdesc.filter(project => project.major === true);
+            filteredProjects = projectdesc.filter(project => project.major === true && project.desc1.trim() !== '');
         } else if (filterMode === 'All') {
-            filteredProjects = projectdesc;
+            filteredProjects = projectdesc.filter(project => project.desc1.trim() !== '');
         }
 
         projectContainer.innerHTML = filteredProjects.map(renderProjectCard).join('');
@@ -1805,6 +1878,16 @@ document.addEventListener('DOMContentLoaded', () => {
                     } else {
                         modalDemolink.style.display = 'none';
                     }
+
+                    if (project.videolink) {
+                        modalVideoSource.src = project.videolink;
+                        modalVideo.style.display = 'block';
+                        console.log(project.videolink)
+                        console.log(modalVideoSource)
+                    } else {
+                        modalVideoSource.src = '';
+                        modalVideo.style.display = 'none';
+                    }
                 });
             }
         });
@@ -1820,17 +1903,3 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.style.display = 'none';
     });
 });
-
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
-});
-
-
-sr.reveal('.sorting-projects', {});
-sr.reveal('.category', {});
-sr.reveal('.project-box', { interval: 200 })
-
-document.querySelector('.sorting-projects button').classList.add('btnActive');
