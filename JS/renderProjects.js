@@ -1662,23 +1662,6 @@ function myMenuFunction() {
     }
 }
 
-
-
-const sr = ScrollReveal({
-    origin: 'top',
-    distance: '80px',
-    duration: 2000,
-    reset: true
-});
-
-
-sr.reveal('.sorting-projects', {});
-sr.reveal('.category', {});
-sr.reveal('.project-box', { interval: 200 })
-
-document.querySelector('.sorting-projects button').classList.add('btnActive');
-
-
 document.addEventListener('DOMContentLoaded', () => {
     const typeButtons = document.querySelectorAll('.sorting-projects .type button');
     const categorySection = document.querySelector('.category');
@@ -1903,3 +1886,17 @@ document.addEventListener('DOMContentLoaded', () => {
         modal.style.display = 'none';
     });
 });
+
+const sr = ScrollReveal({
+    origin: 'top',
+    distance: '80px',
+    duration: 2000,
+    reset: true
+});
+
+
+sr.reveal('.sorting-projects', {});
+sr.reveal('.category', {});
+sr.reveal('.project-box', { interval: 200 })
+
+document.querySelector('.sorting-projects button').classList.add('btnActive');
