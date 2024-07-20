@@ -1,3 +1,4 @@
+
 const projectdesc = [
     {
         projectNo: 66,
@@ -8,10 +9,21 @@ const projectdesc = [
         category: "FULL STACK",
         desc1: "Stock Guardian is my project aimed at managing the stock of items in a retail store where the shop owner can efficiently manage inventory. I used <b>Tailwind CSS</b> for styling. In this application, the owner can add products, view a list of all items with their stock details, update the stock, and delete items. At the top, there is a <b>Search Facility</b> to find any item quickly.",
         desc2: "Stock Guardian is my project aimed at managing the stock of items in a retail store where the shop owner can efficiently manage inventory. I used <b>Tailwind CSS</b> for styling. In this application, the owner can add products, view a list of all items with their stock details, update the stock, and delete items. At the top, there is a <b>Search Facility</b> to find any item quickly.",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
+        learned: [
+            "Learned how to integrate Tailwind CSS for efficient and responsive styling.",
+            "Gained experience in managing state and data flow in a retail inventory application.",
+            "Improved skills in creating CRUD (Create, Read, Update, Delete) functionalities.",
+            "Enhanced knowledge of building search functionalities for quick data retrieval."
+        ],
+        features: [
+            "Add new products to the inventory.",
+            "View a comprehensive list of all items with their stock details.",
+            "Update the stock of existing items.",
+            "Delete items from the inventory.",
+            "Search functionality to quickly find specific items."
+        ],
+        CSS: ["Tailwind CSS"],
+        modules: ["React Router Dom"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/Stock%20Gaurdian",
         videolink: "",
         livedemo: ""
@@ -105,13 +117,24 @@ const projectdesc = [
         major: false,
         type: "NEXTJS",
         category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "PointMarker is a <b>Next.js website</b> using <b>React Leaflet Map</b>. It features a <b>single-page design</b> with sections for <b>search</b> and <b>like</b>, and categories like <b>Hospital</b>, <b>Cafe</b>, <b>Petrol Pump</b>, and <b>Restaurant</b>. Info cards and map markers update based on user selection. Popups provide additional information.",
+        desc2: "PointMarker is a <b>Next.js website</b> that I made using <b>React Leaflet Map</b>. It is a <b>single-page website</b> divided into three main parts. On the <b>left-hand section</b>, there is a section for <b>search</b> and <b>like</b>. In the <b>middle section</b>, I facilitate <b>search</b>, and after that, it has four sections: <b>Hospital</b>, <b>Cafe</b>, <b>Petrol Pump</b>, and <b>Restaurant</b>. As the user clicks on any one of them, the list of <b>info cards</b> is updated, and the <b>marker on the map</b> is also updated. I also used <b>Popup</b> of <b>React Leaflet</b> for more info.",
+        learned: [
+            "Mastered the integration of React Leaflet Map with Next.js.",
+            "Enhanced skills in creating a single-page application with dynamic content.",
+            "Gained experience in managing state and updating UI elements based on user interactions.",
+            "Improved knowledge of implementing popups and info cards for detailed information display."
+        ],
+
+        features: [
+            "A user-friendly search and like section for easy navigation.",
+            "Four categorized sections: Hospital, Cafe, Petrol Pump, and Restaurant with dynamic info card updates.",
+            "Interactive map markers that update based on user selection.",
+            "Detailed information provided through React Leaflet Popups for a better user experience."
+        ],
+        CSS: ["Tailwind CSS"],
+        modules: ["React Leaflet", "React Icons"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/Website/Point%20Marker",
         videolink: "",
         livedemo: ""
     },
@@ -122,13 +145,21 @@ const projectdesc = [
         major: false,
         type: "NEXTJS",
         category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "<b>SliceMagic</b> is a fully responsive pizza UI website using <b>Next.js</b>. It features a <b>navbar</b>, a <b>hamburger menu</b> for small screens, an <b>image container</b> with clickable <b>next</b> and <b>previous</b> buttons, a list of <b>pizzas</b> with <b>name</b> and <b>price</b>, and a <b>footer</b> with <b>restaurant</b> information.",
+        desc2: "<b>SliceMagic</b> is a fully responsive pizza UI website using <b>Next.js</b>. At the top, I made a <b>navbar</b>. I also created a <b>hamburger menu</b> for small screen sizes. Following that, I made an <b>image container</b> that contains three images, but it renders one image at a time; the other two become visible when the user clicks on <b>next</b> or <b>previous</b>. After that, I listed all the <b>pizzas</b> with their <b>name</b> and <b>price</b>. In the <b>footer</b>, I provided information about the <b>restaurant</b>.",
+        learned: [
+            "Mastered responsive design using Next.js.",
+            "Enhanced skills in creating dynamic image carousels.",
+            "Improved understanding of navbar and hamburger menu implementation."
+        ],
+        features: [
+            "Responsive navbar with hamburger menu for small screens.",
+            "Image container displaying one image at a time with next and previous buttons.",
+            "List of pizzas with their name and price, and a footer providing restaurant information."
+        ],
+        CSS: [],
+        modules: [],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/Website/SliceMagic",
         videolink: "",
         livedemo: ""
     },
@@ -139,13 +170,23 @@ const projectdesc = [
         major: false,
         type: "NEXTJS",
         category: "Website",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "<b>Flavor Express</b> is a fully responsive <b>food UI</b> website featuring a sleek, horizontal layout of food items. Hovering over images causes a stylish rotation effect. The site includes a dynamic <b>on-sale banner</b>, along with essential pages like <b>menu</b>, <b>login</b>, and <b>add-to-cart</b>.",
+        desc2: "<b>Flavor Express</b> is a fully responsive <b>food UI</b> website. On this site, I listed some food items with their names, which are displayed horizontally. When a user hovers over any image, it will rotate. Additionally, I created an <b>on-sale banner</b> that continuously runs in real-time. The website includes a <b>menu page</b>, <b>login page</b>, and <b>add-to-cart page</b>.",
+        learned: [
+            "Developed skills in creating a fully responsive layout using CSS Flexbox and Grid.",
+            "Implemented image rotation effects with CSS transitions and hover states.",
+            "Gained experience in integrating real-time elements, such as a dynamic banner.",
+            "Improved proficiency in designing user-friendly pages for menu, login, and cart functionalities."
+        ],
+        features: [
+            "Fully responsive design for seamless user experience on all devices.",
+            "Interactive image hover effects with rotation for enhanced visual appeal.",
+            "Real-time on-sale banner that continuously updates to showcase promotions.",
+            "Dedicated pages for menu, login, and add-to-cart functionalities."
+        ],
+        CSS: [],
+        modules: ["React Router Dom"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/Website/FlavorExpress",
         videolink: "",
         livedemo: ""
     },
@@ -156,13 +197,23 @@ const projectdesc = [
         major: false,
         type: "NEXTJS",
         category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "EntryEase is a learning project for integrating backend functionality in Next.js. It features <b>login</b> and <b>registration</b> functionalities, prompting users to log in or register before accessing the <b>profile page</b>. Premium users can upgrade and downgrade their status, with exclusive content available only to them.",
+        desc2: "EntryEase is a basic website that I created solely for learning purposes, focusing on <b>routes</b> and <b>integrating backend</b> functionality in Next.js and its <b>model</b>. It includes functionality for <b>login</b> and <b>registration</b>. If a user is not logged in, they are first prompted to either <b>login</b> or <b>register</b>, after which they are redirected to the <b>profile page</b> where they can view their details. There is also an option for <b>premium users</b> to upgrade their status, and they can cancel their premium status if desired. Additionally, I have created a page that is only visible to <b>premium users</b>.",
+        learned: [
+            "Mastered integrating backend functionality with <b>Next.js</b>.",
+            "Gained experience in implementing <b>login</b> and <b>registration</b> systems.",
+            "Learned to manage user authentication and <b>profile access</b>.",
+            "Developed functionality for handling <b>premium user</b> status and content visibility."
+        ],
+        features: [
+            "<b>Login</b> and <b>registration</b> system for user authentication.",
+            "Profile page accessible only after <b>login</b>.",
+            "Option for users to upgrade to <b>premium status</b> and manage it.",
+            "Exclusive page visible only to <b>premium users</b>."
+        ],
+        CSS: [],
+        modules: ["React Router Dom"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/EntryEase",
         videolink: "",
         livedemo: ""
     },
@@ -173,13 +224,23 @@ const projectdesc = [
         major: false,
         type: "NEXTJS",
         category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: "",
-        modules: "",
-        githublink: "",
+        desc1: "Game Glance is a full-stack project using <b>Firebase</b> for the backend. It allows users to <b>invite</b> others to play games and includes <b>login</b> and <b>signup</b> options with <b>NextAuth</b>. Features include <b>search functionality</b>, <b>sports selection</b>, and a <b>user profile page</b> for managing posts.",
+        desc2: "Game Glance is a full-stack project made using <b>Firebase</b> for the backend. Users can <b>invite</b> other users to play games. The <b>navbar</b> includes options for <b>login</b> and <b>signup</b>. I used <b>NextAuth</b> for <b>authentication</b> and the <b>Next Image</b> function for image handling. The middle section features a <b>search functionality</b> for finding news and a <b>sports selection</b>. Cards are listed based on these selections. Additionally, there is a <b>user profile page</b> where users can view their details and <b>delete</b> their posts.",
+        learned: [
+            "Implemented Firebase for backend services.",
+            "Integrated NextAuth for user authentication.",
+            "Utilized Next Image for optimized image handling.",
+            "Developed search functionality and sports selection features."
+        ],
+        features: [
+            "Login and signup options in the navbar.",
+            "Invite other users to play games.",
+            "Search functionality for finding news and  sports selection.",
+            "User profile page to view details and delete posts."
+        ],
+        CSS: [],
+        modules: ["Next Auth", "Firebase"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/GameGlance",
         videolink: "",
         livedemo: ""
     },
@@ -1454,8 +1515,18 @@ const projectdesc = [
         category: "API",
         desc1: "GifFusion is an API website where users can search for <b>GIF images</b> they want. It is a <b>single-page website</b> with a <b>search functionality</b> at the top. Below the search bar, there are three buttons: <b>Liked</b>, <b>Trending</b>, and <b>Random</b>, each providing the respective functionality. Below these buttons, a list of <b>GIF images</b> is displayed, each with a <b>like option</b>.",
         desc2: "GifFusion is an API website where users can search for <b>GIF images</b> they want. It is a <b>single-page website</b> with a <b>search functionality</b> at the top. Below the search bar, there are three buttons: <b>Liked</b>, <b>Trending</b>, and <b>Random</b>, each providing the respective functionality. Below these buttons, a list of <b>GIF images</b> is displayed, each with a <b>like option</b>.",
-        learned: [],
-        features: [],
+        learned: [
+            "Gained experience in implementing search functionality for GIF images.",
+            "Learned how to create a single-page website with dynamic content loading.",
+            "Mastered the use of buttons to filter content based on user preferences.",
+            "Developed the ability to integrate a like option for individual GIF images."
+        ],
+        features: [
+            "Users can search for GIF images they want.",
+            "The website is a single-page application with search functionality at the top.",
+            "Three buttons (Liked, Trending, and Random) provide respective functionalities.",
+            "A list of GIF images is displayed, each with a like option."
+        ],
         CSS: [],
         modules: ["Axios", "Dotenv"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/API/GifFusion",
@@ -1464,17 +1535,25 @@ const projectdesc = [
     },
     {
         projectNo: 53,
-        id: "Registration page",
-        name: "Registration page",
+        id: "Login - Registration page",
+        name: "Login - Registration page",
         major: false,
         type: "REACT",
         category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "Login - Registration Page is a <b>two-page</b> website featuring <b>register</b> and <b>login</b> functionalities. I created a <b>user-friendly</b> UI design for both forms, which <b>collects</b> and <b>saves</b> data into a <b>MongoDB</b> database. The site is <b>fully responsive</b> across all devices.",
+        desc2: "Login - Registration Page is a <b>two-page</b> website featuring <b>register</b> and <b>login</b> functionalities. I created a <b>user-friendly</b> UI design for both forms, which <b>collects</b> and <b>saves</b> data into a <b>MongoDB</b> database. The site is <b>fully responsive</b> across all devices.",
+        learned: [
+            "Designed a <b>user-friendly</b> UI for <b>register</b> and <b>login</b> forms.",
+            "Implemented data <b>submission</b> and <b>storage</b> in a <b>MongoDB</b> database.",
+            "Ensured the site is <b>fully responsive</b> across various devices and screen sizes."
+        ],
+        features: [
+            "Two-page website with <b>register</b> and <b>login</b> functionalities.",
+            "User-friendly <b>UI design</b> for smooth data entry and interaction.",
+            "Data is <b>saved</b> in a <b>MongoDB</b> database, ensuring secure storage."
+        ],
         CSS: [],
-        modules: [],
+        modules: ["React Router Dom", "React Icons"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/Registration%20Page",
         videolink: "",
         livedemo: ""
@@ -1486,12 +1565,20 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "FitHub website where users can select their daily <b>exercise routine</b>. After performing each <b>exercise</b>, they can mark it as complete. Once all <b>exercises</b> are completed, the <b>workout</b> is marked as complete. The website is fully <b>responsive</b>.",
+        desc2: "FitHub website where users can select their daily <b>exercise routine</b>. After performing each <b>exercise</b>, they can mark it as complete. Once all <b>exercises</b> are completed, the <b>workout</b> is marked as complete. The website is fully <b>responsive</b>.",
+        learned: [
+            "Mastered the implementation of a daily exercise routine feature.",
+            "Gained experience in creating a fully responsive design.",
+            "Developed functionality for marking exercises as complete and tracking workout progress."
+        ],
+        features: [
+            "Users can select their daily exercise routine.",
+            "Users can mark each exercise as complete.",
+            "The workout is marked as complete once all exercises are finished."
+        ],
         CSS: [],
-        modules: [],
+        modules: ["React Router Dom", "Nodemon"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/FitHub",
         videolink: "",
         livedemo: ""
@@ -1503,12 +1590,20 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "GroceryNest is a <b>MERN stack project</b> for a <b>grocery e-commerce website</b> where users can buy grocery items. Features include a <b>Cart page</b>, <b>sorting facility</b> (price, type), and item cards with <b>images</b>, <b>descriptions</b>, and <b>add/remove</b> buttons. <b>React icons</b> enhance the user interface.",
+        desc2: "GroceryNest is a <b>MERN stack project</b> for a <b>grocery e-commerce website</b> where users can buy grocery items. At the top, users can track the <b>total amount of items</b>. In the top right corner, there is a <b>Cart page</b> where users can see the list of carted items. I also implemented a <b>sorting facility</b> with options like <b>minimum price</b>, <b>maximum price</b>, filter types (<b>fruits</b>, <b>vegetables</b>), and <b>price sorting</b> (high to low and low to high). All items are listed based on the sorting selection. Each item card contains an <b>image</b>, <b>description</b>, and buttons to <b>add to</b> or <b>remove from the cart</b>. <b>React icons</b> are used for icons.",
+        learned: [
+            "Gained experience in developing a MERN stack project for e-commerce.",
+            "Mastered the implementation of sorting and filtering functionalities.",
+            "Learned to integrate React icons for a better user interface."
+        ],
+        features: [
+            "Users can track the total amount of items and view carted items on the Cart page.",
+            "Sorting facility with options like minimum price, maximum price, filter types (fruits, vegetables), and price sorting (high to low and low to high).",
+            "Item cards with images, descriptions, and buttons to add to or remove from the cart."
+        ],
         CSS: [],
-        modules: [],
+        modules: ["React Router Dom"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/GroceyNest",
         videolink: "",
         livedemo: ""
@@ -1520,12 +1615,24 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
-        CSS: [],
-        modules: [],
+        desc1: "FreeVoice is a website for sharing <b>ideas</b> without logging in. Built with <b>Tailwind CSS</b> and <b>DaisyUI</b>, it features a <b>Navbar</b>, <b>Theme Selector</b>, and <b>Idea List</b>. Users can <b>add ideas</b>, choose from 5+ <b>themes</b>, and upvote or downvote ideas, changing their order continuously.",
+        desc2: "FreeVoice is a website where anyone can share their <b>ideas</b> with others without logging in. I built this using <b>Tailwind CSS</b> and <b>DaisyUI</b>. On the homepage, I divided it into two parts: <b>Navbar</b>, <b>Theme Selector</b>, and <b>Idea List</b>. On the Navbar, I included the <b>Add Idea</b> button, the website name, and the logo. When users click on <b>Add Idea</b>, they are redirected to another page where they can add their ideas. The form initially only includes an option to add a <b>name</b>. In the <b>Theme Selector</b> section, I used DaisyUI, allowing users to select from more than 5 <b>themes</b> for the website. In the <b>Idea List</b>, I also used DaisyUI for buttons like <b>Hot</b>, <b>New</b>, and <b>Top</b>, which change the order of the idea list based on user selection. Each <b>idea card</b> has <b>upvote</b> and <b>downvote</b> options, and the order of ideas continuously changes based on user votes.",
+        learned: [
+            "Learned to create a website where users can share ideas without logging in.",
+            "Gained experience using Tailwind CSS for styling and layout.",
+            "Mastered the implementation of DaisyUI components for enhanced UI features.",
+            "Developed a functional Navbar with navigation and idea submission capabilities.",
+            "Integrated theme selection functionality, allowing users to choose from multiple themes."
+        ],
+        features: [
+            "Users can share their ideas without logging in.",
+            "Built using Tailwind CSS for responsive design.",
+            "Implemented DaisyUI for a customizable Theme Selector.",
+            "Navbar includes an Add Idea button, website name, and logo.",
+            "Idea List features upvote and downvote options, with dynamic ordering based on user votes."
+        ],
+        CSS: ["Tailwind css", "DaisyUI"],
+        modules: ["React Router Dom", "uuid", "Toastify", "Moment"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack",
         videolink: "",
         livedemo: ""
@@ -1537,12 +1644,22 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "PointSaver is a <b>React</b> and <b>Leaflet</b> website allowing users to view and save places. Users can browse saved locations without logging in but must <b>login</b> or <b>register</b> to save their own places. Saved places have <b>green</b> markers, while unsaved places are marked in <b>red</b>.",
+        desc2: "PointSaver is a website made using <b>React</b> and <b>Leaflet</b>. Users can view places saved by other users without logging in. However, to save their own places, users must first <b>login</b> or <b>register</b>. After logging in, the <b>login</b> and <b>register</b> buttons convert into a <b>logout</b> button. Saved places are marked with <b>green</b> markers, while all other markers are <b>green</b> by default. If a user marks a place but does not save it, the marker is <b>red</b>. To save a place, users must select it on the map and then provide information about that place. Additionally, <b>popups</b> are used to display more information when users click on a marker.",
+        learned: [
+            "Developed skills in integrating <b>React</b> with <b>Leaflet</b> for interactive mapping.",
+            "Implemented user authentication with <b>login</b> and <b>registration</b> functionalities.",
+            "Gained experience in using <b>popups</b> for displaying additional information on map markers.",
+            "Learned to handle dynamic <b>marker colors</b> based on user interactions and data status."
+        ],
+        features: [
+            "Users can view places saved by others without <b>logging in</b>.",
+            "Users must <b>login</b> or <b>register</b> to save their own places.",
+            "Saved places are marked with <b>green</b> markers, while unsaved places have <b>red</b> markers.",
+            "Interactive <b>popups</b> provide more information when clicking on markers."
+        ],
         CSS: [],
-        modules: [],
+        modules: ["React Leaflet", "Dotenv", "Nodemon"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/PointSaver",
         videolink: "",
         livedemo: ""
@@ -1639,12 +1756,22 @@ const projectdesc = [
         major: false,
         type: "REACT",
         category: "FULL STACK",
-        desc1: "",
-        desc2: "",
-        learned: [],
-        features: [],
+        desc1: "NoteNexus is a <b>MERN stack project</b> that allows users to <b>login</b> and <b>register</b>. After registration, users are automatically logged in and can store, <b>edit</b>, or <b>delete</b> their notes. The <b>notes page</b> displays all saved notes, and the <b>navbar</b> updates to <b>logout</b>. The site is <b>fully responsive</b>.",
+        desc2: "NoteNexus is a <b>MERN stack project</b> with a login facility. If a user is not logged in, the home page provides two options: <b>login</b> and <b>register</b>. The user can choose either action. After registering, the user is automatically logged in. Once logged in, they can store their important notes on the website. After saving, users have the option to <b>edit</b> or <b>delete</b> their notes. On the <b>notes page</b>, every note saved by the user is listed. In the <b>navbar</b>, the <b>login</b> and <b>register</b> options convert into <b>logout</b>. The website is fully responsive for all devices.",
+        learned: [
+            "Mastered building full-stack applications using the <b>MERN stack</b>.",
+            "Implemented user authentication and <b>authorization</b> functionalities.",
+            "Gained experience in creating responsive designs with <b>mobile-first</b> principles.",
+            "Developed skills in managing CRUD operations with <b>notes</b> and handling state in a React application."
+        ],
+        features: [
+            "<b>Login</b> and <b>register</b> functionalities with automatic login after registration.",
+            "Ability to <b>store</b>, <b>edit</b>, and <b>delete</b> notes.",
+            "Dynamic <b>notes page</b> that lists all saved notes.",
+            "Responsive design ensuring compatibility across all <b>devices</b>."
+        ],
         CSS: [],
-        modules: [],
+        modules: ["React Router Dom", "React Icons", "Dotenv", "Nodemon"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/React/FullStack/NoteNexus",
         videolink: "",
         livedemo: ""
@@ -1665,7 +1792,7 @@ function myMenuFunction() {
 document.addEventListener('DOMContentLoaded', () => {
     const typeButtons = document.querySelectorAll('.sorting-projects .type button');
     const categorySection = document.querySelector('.category');
-    const projectContainer = document.querySelector('.project-container');  
+    const projectContainer = document.querySelector('.project-container');
     const modal = document.getElementById('modal');
     const modalName = document.getElementById('modal-name');
     const modalLearned = document.getElementById('modal-learned');
@@ -1750,9 +1877,12 @@ document.addEventListener('DOMContentLoaded', () => {
                         ` : ''}
                         ${project.videolink ? `
                         <a id="modal-videolink" href="${project.videolink}" target="_blank">
-                            <div class="icon material-symbols-outlined">
-                                play_circle
-                            </div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 24" class="icon">
+                                <g >
+                                <circle cx="12.5" cy="12" r="12" fill="url(#a)" transform="rotate(90 12.5 12)"/>
+                                <polygon fill="#000" points="9 17 9 7 18 12"/>
+                                </g>
+                            </svg>
                         </a>
                         ` : ''}
 
