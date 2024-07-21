@@ -41,3 +41,14 @@
     margin-top: 10px;
 }
 
+
+.modal-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-video{
+    width: 70%;
+    height: 50%;
+}
