@@ -28,30 +28,31 @@ const projectdesc = [
         livedemo: ""
     },
     {
-        projectNo: 67,
-        id: "Retail Genius",
-        name: "Retail Genius",
-        major: true,
+        projectNo: 66,
+        id: "StockGuardian",
+        name: "StockGuardian",
+        major: false,
         type: "NEXTJS",
         category: "FULL STACK",
-        desc1: "This is Ecommerce Project using <b>NEXTJS</b> as frontend and MongoDB for Backend. Which facilate to <b>Add</b>, <b>Delete</b> and <b>Edit</b> item from database. In this i also implemented <b>Discount Coupen</b> facility enchance it's. After Item added into cart the add to cart button convert into <b>Added to cart</b>.",
-        desc2: "This is Ecommerce Project using <b>NEXTJS</b> as frontend and MongoDB for Backend. Which facilate to <b>Add</b>, <b>Delete</b> and <b>Edit</b> item from database. In this i also implemented <b>Discount Coupen</b> facility enchance it's. After Item added into cart the add to cart button convert into <b>Added to cart</b>.",
+        desc1: "Stock Guardian is my project aimed at managing the stock of items in a retail store where the shop owner can efficiently manage inventory. I used <b>Tailwind CSS</b> for styling. In this application, the owner can add products, view a list of all items with their stock details, update the stock, and delete items. At the top, there is a <b>Search Facility</b> to find any item quickly.",
+        desc2: "Stock Guardian is my project aimed at managing the stock of items in a retail store where the shop owner can efficiently manage inventory. I used <b>Tailwind CSS</b> for styling. In this application, the owner can add products, view a list of all items with their stock details, update the stock, and delete items. At the top, there is a <b>Search Facility</b> to find any item quickly.",
         learned: [
-            "Mastered the fundamental concepts of HTML and CSS.",
-            "Successfully integrated HTML with CSS to create a cohesive design.",
-            "Gained experience with img and table tags for better content presentation.",
-            "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
+            "Learned how to integrate Tailwind CSS for efficient and responsive styling.",
+            "Gained experience in managing state and data flow in a retail inventory application.",
+            "Improved skills in creating CRUD (Create, Read, Update, Delete) functionalities.",
+            "Enhanced knowledge of building search functionalities for quick data retrieval."
         ],
         features: [
-            "Mastered the fundamental concepts of HTML and CSS.",
-            "Successfully integrated HTML with CSS to create a cohesive design.",
-            "Gained experience with img and table tags for better content presentation.",
-            "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
+            "Add new products to the inventory.",
+            "View a comprehensive list of all items with their stock details.",
+            "Update the stock of existing items.",
+            "Delete items from the inventory.",
+            "Search functionality to quickly find specific items."
         ],
-        CSS: "Tailwind",
-        modules: ["Fontawsome", "Axios", "React Router Dom"],
-        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/Retail%20Genius",
-        videolink: "",
+        CSS: ["Tailwind CSS"],
+        modules: ["React Router Dom"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/Stock%20Gaurdian",
+        videolink: "../assests/videos/StockGuardian.mp4",
         livedemo: ""
     },
     {
@@ -265,7 +266,7 @@ const projectdesc = [
         CSS: ["Tailwind", "scss"],
         modules: ["leaflet"],
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/EventVault",
-        videolink: "",
+        videolink: "../assests/videos/EventVault.mp4",
         livedemo: ""
     },
     {
@@ -838,7 +839,7 @@ const projectdesc = [
         CSS: "",
         modules: "",
         githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/HTML%20CSS%20JS/Clone/Myntra",
-        videolink: "https://drive.google.com/file/d/1ApO6nvfbKnTaGU4kMohJxvKkpp_UNGsF/view?usp=sharing",
+        videolink: "",
         livedemo: ""
     },
     {
@@ -1803,9 +1804,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const modalVideo = document.getElementById("modal-video");
     const modalVideoSource = document.getElementById("modal-video-src");
 
-    console.log(modalVideo)
-    console.log(modalVideoSource)
-
     let selectedType = '';
     let selectedCategory = '';
     let filterMode = 'Major';
@@ -1858,37 +1856,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function renderProjectCard(project) {
         return `
-                <div class="project-box" id="${project.id}">
-                    <h3>${project.name}</h3>
-                    <p>${project.desc1}</p>
-                    <div class="links">
-                        <a href="${project.githublink}" target="_blank">
-                            <div class="icon project-box-icon">
-                                <i class="uil uil-github-alt"></i>
-                            </div>
-                        </a>
-                        ${project.livedemo ? `
-                        <a id="modal-demolink" href="${project.livedemo}" target="_blank">
-                            <div class="icon demo-link material-symbols-outlined">
-                                language
-                            </div>
-                        </a>
-                        ` : ''}
-                        ${project.videolink ? `
-                        <a id="modal-videolink" href="${project.videolink}" target="_blank">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 24" class="icon">
-                                <g >
-                                <circle cx="12.5" cy="12" r="12" fill="url(#a)" transform="rotate(90 12.5 12)"/>
-                                <polygon fill="#000" points="9 17 9 7 18 12"/>
-                                </g>
-                            </svg>
-                        </a>
-                        ` : ''}
-
-                        
-                    </div>
+            <div class="project-box" id="${project.id}">
+                <h3>${project.name}</h3>
+                <p>${project.desc1}</p>
+                <div class="links">
+                    <a href="${project.githublink}" target="_blank">
+                        <div class="icon project-box-icon">
+                            <i class="uil uil-github-alt"></i>
+                        </div>
+                    </a>
+                    ${project.livedemo ? `
+                    <a href="${project.livedemo}" target="_blank">
+                        <div class="icon demo-link material-symbols-outlined">
+                            language
+                        </div>
+                    </a>
+                    ` : ''}
+                    ${project.videolink ? `
+                    <a class="video-link" data-videolink="${project.videolink}" href="#">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 25 24" class="icon">
+                            <g >
+                            <circle cx="12.5" cy="12" r="12" fill="url(#a)" transform="rotate(90 12.5 12)"/>
+                            <polygon fill="#000" points="9 17 9 7 18 12"/>
+                            </g>
+                        </svg>
+                    </a>
+                    ` : ''}
                 </div>
-            `;
+            </div>
+        `;
     }
 
     function renderProjects() {
@@ -1993,11 +1989,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
                     if (project.videolink) {
                         modalVideoSource.src = project.videolink;
+                        modalVideo.load();
                         modalVideo.style.display = 'block';
-                        console.log(project.videolink)
-                        console.log(modalVideoSource)
                     } else {
-                        modalVideoSource.src = '';
                         modalVideo.style.display = 'none';
                     }
                 });
@@ -2005,14 +1999,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    window.onclick = function (event) {
-        if (event.target == modal) {
-            modal.style.display = 'none';
-        }
-    };
-
+    // Close modal
     closeButton.addEventListener('click', () => {
         modal.style.display = 'none';
+    });
+
+    window.addEventListener('click', (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    });
+
+    // Add event listeners to all video link elements
+    document.querySelectorAll('.video-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const videolink = e.currentTarget.getAttribute('data-videolink');
+            modal.style.display = 'block';
+            modalVideoSource.src = videolink;
+            modalVideo.load();
+        });
     });
 });
 
