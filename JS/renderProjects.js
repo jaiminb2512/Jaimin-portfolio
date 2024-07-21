@@ -1,31 +1,30 @@
 
 const projectdesc = [
     {
-        projectNo: 66,
-        id: "StockGuardian",
-        name: "StockGuardian",
-        major: false,
+        projectNo: 67,
+        id: "Retail Genius",
+        name: "Retail Genius",
+        major: true,
         type: "NEXTJS",
         category: "FULL STACK",
-        desc1: "Stock Guardian is my project aimed at managing the stock of items in a retail store where the shop owner can efficiently manage inventory. I used <b>Tailwind CSS</b> for styling. In this application, the owner can add products, view a list of all items with their stock details, update the stock, and delete items. At the top, there is a <b>Search Facility</b> to find any item quickly.",
-        desc2: "Stock Guardian is my project aimed at managing the stock of items in a retail store where the shop owner can efficiently manage inventory. I used <b>Tailwind CSS</b> for styling. In this application, the owner can add products, view a list of all items with their stock details, update the stock, and delete items. At the top, there is a <b>Search Facility</b> to find any item quickly.",
+        desc1: "This is Ecommerce Project using <b>NEXTJS</b> as frontend and MongoDB for Backend. Which facilate to <b>Add</b>, <b>Delete</b> and <b>Edit</b> item from database. In this i also implemented <b>Discount Coupen</b> facility enchance it's. After Item added into cart the add to cart button convert into <b>Added to cart</b>.",
+        desc2: "This is Ecommerce Project using <b>NEXTJS</b> as frontend and MongoDB for Backend. Which facilate to <b>Add</b>, <b>Delete</b> and <b>Edit</b> item from database. In this i also implemented <b>Discount Coupen</b> facility enchance it's. After Item added into cart the add to cart button convert into <b>Added to cart</b>.",
         learned: [
-            "Learned how to integrate Tailwind CSS for efficient and responsive styling.",
-            "Gained experience in managing state and data flow in a retail inventory application.",
-            "Improved skills in creating CRUD (Create, Read, Update, Delete) functionalities.",
-            "Enhanced knowledge of building search functionalities for quick data retrieval."
+            "Mastered the fundamental concepts of HTML and CSS.",
+            "Successfully integrated HTML with CSS to create a cohesive design.",
+            "Gained experience with img and table tags for better content presentation.",
+            "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
         ],
         features: [
-            "Add new products to the inventory.",
-            "View a comprehensive list of all items with their stock details.",
-            "Update the stock of existing items.",
-            "Delete items from the inventory.",
-            "Search functionality to quickly find specific items."
+            "Mastered the fundamental concepts of HTML and CSS.",
+            "Successfully integrated HTML with CSS to create a cohesive design.",
+            "Gained experience with img and table tags for better content presentation.",
+            "This project has laid a strong foundation, and I'm eager to dive into more complex projects."
         ],
-        CSS: ["Tailwind CSS"],
-        modules: ["React Router Dom"],
-        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/Stock%20Gaurdian",
-        videolink: "",
+        CSS: ["Tailwind"],
+        modules: ["Fontawsome", "Axios", "React Router Dom"],
+        githublink: "https://github.com/jaiminb2512/Project-Solider/tree/main/Next/FullStack/Retail%20Genius",
+        videolink: "../assests/videos/A simple calculator.mp4",
         livedemo: ""
     },
     {
